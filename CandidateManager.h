@@ -1,34 +1,48 @@
-#ifndef CANDIDATE_MANAGER_H
-#define CANDIDATE_MANAGER_H
+#include "CandidateManager.h"
 
-#include "HashTable.h"
-#include "CandidateSorter.h"
-#include "GroupManager.h"
-#include "RoomManager.h"
-#include "FileManager.h"
+using namespace std;
 
-class CandidateManager {
-private:
-    HashTable hashTable;
+bool CandidateManager::addCandidate(const Candidate& candidate)
+{
+    // Thêm candidate vào HashTable
+}
 
-public:
-    bool addCandidate(const Candidate& candidate);
+Candidate* CandidateManager::searchCandidate(const string& examID)
+{
+    // Tìm candidate theo examID
+}
 
-    Candidate* searchCandidate(const string& examID);
+bool CandidateManager::removeCandidate(const string& examID)
+{
+    // Xóa candidate
+}
 
-    bool removeCandidate(const string& examID);
+vector<Candidate> CandidateManager::getAllCandidates() const
+{
+    // Lấy tất cả candidate
+}
 
-    vector<Candidate> getAllCandidates() const;
+vector<Candidate> CandidateManager::getSortedCandidates() const
+{
+    // Sắp xếp candidate theo tên
+}
 
-    vector<Candidate> getSortedCandidates() const;
+vector<vector<Candidate>> CandidateManager::groupCandidates() const
+{
+    // Nhóm candidate theo chữ cái đầu
+}
 
-    vector<vector<Candidate>> groupCandidates() const;
+vector<Room> CandidateManager::divideCandidates(int numberOfRooms)
+{
+    // Chia candidate vào các phòng
+}
 
-    vector<Room> divideCandidates(int numberOfRooms);
+bool CandidateManager::saveData(const string& filename)
+{
+    // Lưu dữ liệu vào file
+}
 
-    bool saveData(const string& filename);
-
-    bool loadData(const string& filename);
-};
-
-#endif
+bool CandidateManager::loadData(const string& filename)
+{
+    // Đọc dữ liệu từ file
+}
