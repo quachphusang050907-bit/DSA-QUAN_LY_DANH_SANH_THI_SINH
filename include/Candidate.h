@@ -1,6 +1,8 @@
 #pragma once
 #include <string>
 
+using namespace std;
+
 struct Candidate {
     std::string fullName;
     std::string gender;
