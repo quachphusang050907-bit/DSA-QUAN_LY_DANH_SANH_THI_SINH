@@ -4,7 +4,7 @@
 #include <chrono>
 
 bool RoomManager::distributeCandidates(const HashTable& hashTable, int numRooms) {
-    // 1. Kiểm tra điều kiện đầu vào
+    // 1. Kiểm tra điều kiện đầu vào: Đảm bảo số phòng numRooms > 0. Khởi tạo vector rooms với numRooms phòng thi.
     if (numRooms <= 0) {
         std::cout << "[Lỗi] Số lượng phòng thi phải lớn hơn 0!\n";
         return false;
@@ -33,7 +33,7 @@ bool RoomManager::distributeCandidates(const HashTable& hashTable, int numRooms)
             curr = curr->next;
         }
     }
-
+    // 3. Kiểm tra điều kiện: Nếu không có thí sinh nào, cảnh báo. Nếu số phòng lớn hơn số thí sinh, cảnh báo.
     if (totalCandidates == 0) {
         std::cout << "[Cảnh báo] Hệ thống chưa có dữ liệu thí sinh nào!\n";
         return false;
@@ -47,6 +47,7 @@ bool RoomManager::distributeCandidates(const HashTable& hashTable, int numRooms)
     return true;
 }
 
+// Hiển thị danh sách các phòng và thí sinh trong từng phòng
 void RoomManager::displayRooms() const {
     for (const auto& room : rooms) {
         std::cout << "\n=================== PHÒNG THI " << room.roomId 
@@ -81,32 +82,6 @@ static char extractFirstNameInitial(const std::string& fullName) {
     return static_cast<char>(std::toupper(static_cast<unsigned char>(firstName[0])));
 }
 
-int RoomManager::calculateConflictScore() const {
-    int totalConflicts = 0;
-
-    for (const auto& room : rooms) {
-        int letterCounts[26] = {0};
-
-        for (const auto& cand : room.candidates) {
-            // Thay cand.getFirstNameInitial() bằng hàm helper:
-            char firstLetter = extractFirstNameInitial(cand.fullName); 
-            
-            if (firstLetter >= 'A' && firstLetter <= 'Z') {
-                letterCounts[firstLetter - 'A']++;
-            }
-        }
-
-        for (int i = 0; i < 26; ++i) {
-            int count = letterCounts[i];
-            if (count > 1) {
-                totalConflicts += (count * (count - 1)) / 2;
-            }
-        }
-    }
-
-    return totalConflicts;
-}
-
 // Hàm đánh giá mức độ xung đột (Conflict Score)
 // Conflict = Số cặp thí sinh có cùng chữ cái đầu của Tên trong cùng một phòng
 int RoomManager::calculateConflictScore() const {
@@ -135,6 +110,7 @@ int RoomManager::calculateConflictScore() const {
     return totalConflicts;
 }
 
+// Báo cáo chi tiết hiệu năng & mức độ phân bổ
 void RoomManager::printPerformanceReport(double executionTimeMs) const {
     std::cout << "\n---------------- BÁO CÁO HIỆU NĂNG VÀ CONFLICT ----------------\n";
     std::cout << "Thời gian thực thi thuật toán chia phòng: " << std::fixed << std::setprecision(4) 

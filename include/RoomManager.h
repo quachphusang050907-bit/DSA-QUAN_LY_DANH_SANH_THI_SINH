@@ -6,18 +6,18 @@
 
 class RoomManager {
 private:
-    std::vector<Room> rooms;
+    std::vector<Room> rooms; // danh sách các phòng thi được quản lý
 
 public:
     RoomManager() = default;
 
-    // Chức năng chính: Chia thí sinh vào n phòng bằng Round-Robin (Greedy)
+    // phân bố thí sinh vào n phòng bằng Round-Robin (Greedy)
     bool distributeCandidates(const HashTable& hashTable, int numRooms);
 
-    // Hiển thị danh sách các phòng
+    // danh sách các phòng
     void displayRooms() const;
 
-    // Đánh giá Conflict Score (Số cặp thí sinh trùng chữ cái đầu tên trong cùng 1 phòng)
+    // tính toán điểm xung đột 
     int calculateConflictScore() const;
 
     // Báo cáo chi tiết hiệu năng & mức độ phân bổ
