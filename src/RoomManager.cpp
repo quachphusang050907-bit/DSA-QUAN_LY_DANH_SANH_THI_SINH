@@ -70,6 +70,43 @@ void RoomManager::displayRooms() const {
     }
 }
 
+// Hàm helper trích xuất chữ cái đầu của Tên (từ cuối cùng trong Họ tên)
+static char extractFirstNameInitial(const std::string& fullName) {
+    if (fullName.empty()) return 'A';
+    
+    size_t lastSpace = fullName.find_last_of(" \t");
+    std::string firstName = (lastSpace == std::string::npos) ? fullName : fullName.substr(lastSpace + 1);
+    
+    if (firstName.empty()) return 'A';
+    return static_cast<char>(std::toupper(static_cast<unsigned char>(firstName[0])));
+}
+
+int RoomManager::calculateConflictScore() const {
+    int totalConflicts = 0;
+
+    for (const auto& room : rooms) {
+        int letterCounts[26] = {0};
+
+        for (const auto& cand : room.candidates) {
+            // Thay cand.getFirstNameInitial() bằng hàm helper:
+            char firstLetter = extractFirstNameInitial(cand.fullName); 
+            
+            if (firstLetter >= 'A' && firstLetter <= 'Z') {
+                letterCounts[firstLetter - 'A']++;
+            }
+        }
+
+        for (int i = 0; i < 26; ++i) {
+            int count = letterCounts[i];
+            if (count > 1) {
+                totalConflicts += (count * (count - 1)) / 2;
+            }
+        }
+    }
+
+    return totalConflicts;
+}
+
 // Hàm đánh giá mức độ xung đột (Conflict Score)
 // Conflict = Số cặp thí sinh có cùng chữ cái đầu của Tên trong cùng một phòng
 int RoomManager::calculateConflictScore() const {
@@ -80,7 +117,7 @@ int RoomManager::calculateConflictScore() const {
 
         // Đếm số lượng thí sinh của mỗi chữ cái đầu trong phòng này
         for (const auto& cand : room.candidates) {
-            char firstLetter = cand.getFirstNameInitial(); // Hoặc logic trích xuất ký tự đầu
+            char firstLetter = extractFirstNameInitial(cand.fullName); // Hoặc logic trích xuất ký tự đầu
             if (firstLetter >= 'A' && firstLetter <= 'Z') {
                 letterCounts[firstLetter - 'A']++;
             }
