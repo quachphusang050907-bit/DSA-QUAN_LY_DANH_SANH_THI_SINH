@@ -1,6 +1,4 @@
-#ifndef HASHTABLE_H
-#define HASHTABLE_H
-
+#pragma once
 #include "LinkedList.h"
 #include <string>
 #include <vector>
@@ -50,4 +48,4 @@ public:
     void printStats() const; // Thong ke so luong thi sinh trong tung bucket (bieu do thanh)
 };
 
-#endif
+

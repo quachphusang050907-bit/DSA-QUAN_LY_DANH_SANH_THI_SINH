@@ -1,7 +1,6 @@
-#ifndef CANDIDATE_SORTER_H
-#define CANDIDATE_SORTER_H
-
+#pragma once
 #include <vector>
+#include <string>
 #include "Candidate.h"
 
 using namespace std;
@@ -101,4 +100,3 @@ private:
     );
 };
 
-#endif

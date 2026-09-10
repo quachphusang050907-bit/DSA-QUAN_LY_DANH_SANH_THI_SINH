@@ -1,6 +1,4 @@
-#ifndef LINKEDLIST_H 
-#define LINKEDLIST_H 
- 
+#pragma once
 #include "Node.h" 
 #include <vector> 
 #include <string> 
@@ -37,5 +35,3 @@ public:
     int   getCount() const { return count; }     // Lấy số lượng Node
     bool  isEmpty()  const { return head == nullptr; } // Kiểm tra rỗng
 }; 
- 
-#endif

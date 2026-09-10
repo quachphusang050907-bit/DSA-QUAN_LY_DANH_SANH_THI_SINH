@@ -1,6 +1,4 @@
-#ifndef GROUPMANAGER_H
-#define GROUPMANAGER_H
-
+#pragma once
 #include "HashTable.h"
 
 
@@ -16,5 +14,4 @@ public:
     static void displayGroup(const HashTable& ht, char letter);
 };
 
-#endif
 

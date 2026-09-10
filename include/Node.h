@@ -1,5 +1,4 @@
-#ifndef NODE_H
-#define NODE_H
+#pragma once
 // Tránh file Node.h bị khai báo nhiều lần
 
 #include "Candidate.h"
@@ -22,5 +21,4 @@ struct Node {
     // next(nullptr): ban đầu chưa trỏ đến Node nào
 };
 
-#endif
 // Kết thúc Include Guard

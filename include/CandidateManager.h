@@ -1,5 +1,9 @@
 #pragma once
 
+#include <string>
+#include <vector>
+
+#include "Candidate.h"
 #include "HashTable.h"
 #include "CandidateSorter.h"
 #include "GroupManager.h"
@@ -12,20 +16,14 @@ private:
 
 public:
     bool addCandidate(const Candidate& candidate);
+    Candidate* searchCandidate(const std::string& examID);
+    bool removeCandidate(const std::string& examID);
 
-    Candidate* searchCandidate(const string& examID);
+    std::vector<Candidate> getAllCandidates() const;
+    std::vector<Candidate> getSortedCandidates() const;
+    std::vector<std::vector<Candidate>> groupCandidates() const;
+    std::vector<Room> divideCandidates(int numberOfRooms);
 
-    bool removeCandidate(const string& examID);
-
-    vector<Candidate> getAllCandidates() const;
-
-    vector<Candidate> getSortedCandidates() const;
-
-    vector<vector<Candidate>> groupCandidates() const;
-
-    vector<Room> divideCandidates(int numberOfRooms);
-
-    bool saveData(const string& filename);
-
-    bool loadData(const string& filename);
+    bool saveData(const std::string& filename);
+    bool loadData(const std::string& filename);
 };
