@@ -165,55 +165,32 @@ bool CandidateSorter::compareCandidate(
 // ============================================================
 
 void CandidateSorter::merge(
-    vector<Candidate>& candidates,
-    int left,
-    int mid,
-    int right
-)
+    vector<Candidate>& candidates, int left, int mid, int right)
 {
     // Vector tạm dùng để lưu kết quả sau khi trộn.
     vector<Candidate> temp;
-
-
     // i dùng để duyệt nửa bên trái.
     int i = left;
-
-
     // j dùng để duyệt nửa bên phải.
     int j = mid + 1;
-
 
     // --------------------------------------------------------
     // SO SÁNH HAI NỬA
     // --------------------------------------------------------
 
-    while (
-        i <= mid &&
-        j <= right
-        )
+    while (i <= mid && j <= right )
     {
         // Nếu phần tử bên trái nhỏ hơn
         // hoặc đứng trước phần tử bên phải.
-        if (
-            compareCandidate(
-                candidates[i],
-                candidates[j]
-            )
-            )
+        if ( compareCandidate( candidates[i], candidates[j] ) )
         {
-            temp.push_back(
-                candidates[i]
-            );
-
+            temp.push_back( candidates[i] );
             i++;
         }
         else
         {
             // Ngược lại lấy phần tử bên phải.
-            temp.push_back(
-                candidates[j]
-            );
-
+            temp.push_back( candidates[j] );
             j++;
         }
     }
@@ -225,32 +202,21 @@ void CandidateSorter::merge(
 
     while (i <= mid)
     {
-        temp.push_back(
-            candidates[i]
-        );
-
+         temp.push_back( candidates[i]);
         i++;
     }
-
-
     // --------------------------------------------------------
     // ĐƯA CÁC PHẦN TỬ CÒN LẠI BÊN PHẢI
-    // --------------------------------------------------------
-
+    //--------------------------------------------------------
     while (j <= right)
     {
-        temp.push_back(
-            candidates[j]
-        );
+        temp.push_back(candidates[j]);
 
         j++;
     }
-
-
     // --------------------------------------------------------
     // CHÉP KẾT QUẢ TỪ TEMP VỀ MẢNG BAN ĐẦU
     // --------------------------------------------------------
-
     for (
         int k = 0;
         k < static_cast<int>(temp.size());
