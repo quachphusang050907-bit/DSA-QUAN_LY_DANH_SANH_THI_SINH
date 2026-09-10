@@ -1,7 +1,7 @@
 #include <iostream>
 #include <limits>
 
-#include "CandidateManager.h"
+#include "../include/Candidate.h"
 
 using namespace std;
 
