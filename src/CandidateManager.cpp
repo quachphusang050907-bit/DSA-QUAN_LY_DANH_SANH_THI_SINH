@@ -1,5 +1,5 @@
 #include "CandidateManager.h"
-
+#include "HashTable.h"
 #include <iostream>
 #include <limits>
 
@@ -33,6 +33,10 @@ bool CandidateManager::addCandidate(const Candidate& candidate)
     return hashTable.add(candidate);
 }
 
+
+// ======================================================
+// SEARCH BY EXAM ID
+// ======================================================
 Candidate* CandidateManager::searchCandidate()
 {
     string examID;
@@ -40,7 +44,7 @@ Candidate* CandidateManager::searchCandidate()
     cout << "Enter exam ID: ";
     cin >> examID;
 
-    return searchCandidate(examID);
+    return hashTable.findByID(examID);
 }
 
 Candidate* CandidateManager::searchCandidate(const string& examID)
@@ -48,6 +52,20 @@ Candidate* CandidateManager::searchCandidate(const string& examID)
     return hashTable.findByID(examID);
 }
 
+
+// ======================================================
+// SEARCH BY NAME
+// ======================================================
+vector<Candidate> CandidateManager::searchCandidatesByName(
+    const string& keyword) const
+{
+    return hashTable.findByName(keyword);
+}
+
+
+// ======================================================
+// REMOVE CANDIDATE
+// ======================================================
 bool CandidateManager::removeCandidate()
 {
     string examID;
@@ -63,11 +81,19 @@ bool CandidateManager::removeCandidate(const string& examID)
     return hashTable.remove(examID);
 }
 
+
+// ======================================================
+// GET ALL CANDIDATES
+// ======================================================
 vector<Candidate> CandidateManager::getAllCandidates() const
 {
     return hashTable.getAllCandidates();
 }
 
+
+// ======================================================
+// GET SORTED CANDIDATES
+// ======================================================
 vector<Candidate> CandidateManager::getSortedCandidates() const
 {
     vector<Candidate> candidates = hashTable.getAllCandidates();
@@ -77,6 +103,10 @@ vector<Candidate> CandidateManager::getSortedCandidates() const
     return candidates;
 }
 
+
+// ======================================================
+// GROUP CANDIDATES
+// ======================================================
 vector<vector<Candidate>> CandidateManager::groupCandidates() const
 {
     vector<vector<Candidate>> groups;
@@ -87,8 +117,7 @@ vector<vector<Candidate>> CandidateManager::groupCandidates() const
 
         const LinkedList& bucket = hashTable.getBucket(i);
 
-        // Duyệt các node trong bucket
-        Node* current = bucket.getHead();
+        const Node* current = bucket.getHead();
 
         while (current != nullptr)
         {
@@ -102,6 +131,10 @@ vector<vector<Candidate>> CandidateManager::groupCandidates() const
     return groups;
 }
 
+
+// ======================================================
+// DIVIDE CANDIDATES INTO ROOMS
+// ======================================================
 vector<Room> CandidateManager::divideCandidates(int numberOfRooms)
 {
     vector<Room> result;
@@ -121,6 +154,10 @@ vector<Room> CandidateManager::divideCandidates(int numberOfRooms)
     return result;
 }
 
+
+// ======================================================
+// DISPLAY SORTED CANDIDATES
+// ======================================================
 void CandidateManager::displaySortedCandidates() const
 {
     vector<Candidate> candidates = getSortedCandidates();
@@ -131,40 +168,59 @@ void CandidateManager::displaySortedCandidates() const
         return;
     }
 
-    Candidate::printHeader();
-
     for (const Candidate& candidate : candidates)
     {
-        candidate.display();
+        cout << candidate.fullName << " | "
+             << candidate.gender << " | "
+             << candidate.examID << " | "
+             << candidate.birthDate << " | "
+             << candidate.hometown << endl;
     }
-
-    Candidate::printSeparator();
 }
 
+
+// ======================================================
+// DISPLAY GROUPS
+// ======================================================
 void CandidateManager::displayGroups() const
 {
     GroupManager::displayAllGroups(hashTable);
 }
 
+
+// ======================================================
+// DISTRIBUTE CANDIDATES TO ROOMS
+// ======================================================
 void CandidateManager::distributeCandidatesToRooms()
 {
     int numberOfRooms = 0;
 
     cout << "Enter number of rooms: ";
+
     while (!(cin >> numberOfRooms) || numberOfRooms <= 0)
     {
         cout << "Invalid input. Please enter a positive integer: ";
+
         cin.clear();
-        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+
+        cin.ignore(
+            numeric_limits<streamsize>::max(),
+            '\n'
+        );
     }
 
     RoomManager roomManager;
+
     if (roomManager.distributeCandidates(hashTable, numberOfRooms))
     {
         roomManager.displayRooms();
     }
 }
 
+
+// ======================================================
+// SAVE DATA
+// ======================================================
 bool CandidateManager::saveData()
 {
     return saveData("data/candidates_100.txt");
@@ -177,6 +233,10 @@ bool CandidateManager::saveData(const string& filename)
     return FileManager::saveToFile(candidates, filename);
 }
 
+
+// ======================================================
+// LOAD DATA
+// ======================================================
 bool CandidateManager::loadData()
 {
     return loadData("data/candidates_100.txt");
@@ -184,7 +244,8 @@ bool CandidateManager::loadData()
 
 bool CandidateManager::loadData(const string& filename)
 {
-    vector<Candidate> candidates = FileManager::loadFromFile(filename);
+    vector<Candidate> candidates =
+        FileManager::loadFromFile(filename);
 
     bool success = true;
 
