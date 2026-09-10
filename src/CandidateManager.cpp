@@ -1,15 +1,61 @@
 #include "CandidateManager.h"
 
+#include <iostream>
+#include <limits>
+
 using namespace std;
+
+bool CandidateManager::addCandidate()
+{
+    Candidate candidate;
+
+    cout << "Full name: ";
+    cin >> ws;
+    getline(cin, candidate.fullName);
+
+    cout << "Gender: ";
+    getline(cin, candidate.gender);
+
+    cout << "Exam ID: ";
+    getline(cin, candidate.examID);
+
+    cout << "Birth date: ";
+    getline(cin, candidate.birthDate);
+
+    cout << "Hometown: ";
+    getline(cin, candidate.hometown);
+
+    return addCandidate(candidate);
+}
 
 bool CandidateManager::addCandidate(const Candidate& candidate)
 {
     return hashTable.add(candidate);
 }
 
+Candidate* CandidateManager::searchCandidate()
+{
+    string examID;
+
+    cout << "Enter exam ID: ";
+    cin >> examID;
+
+    return searchCandidate(examID);
+}
+
 Candidate* CandidateManager::searchCandidate(const string& examID)
 {
     return hashTable.findByID(examID);
+}
+
+bool CandidateManager::removeCandidate()
+{
+    string examID;
+
+    cout << "Enter exam ID to remove: ";
+    cin >> examID;
+
+    return removeCandidate(examID);
 }
 
 bool CandidateManager::removeCandidate(const string& examID)
@@ -75,11 +121,65 @@ vector<Room> CandidateManager::divideCandidates(int numberOfRooms)
     return result;
 }
 
+void CandidateManager::displaySortedCandidates() const
+{
+    vector<Candidate> candidates = getSortedCandidates();
+
+    if (candidates.empty())
+    {
+        cout << "No candidates found.\n";
+        return;
+    }
+
+    Candidate::printHeader();
+
+    for (const Candidate& candidate : candidates)
+    {
+        candidate.display();
+    }
+
+    Candidate::printSeparator();
+}
+
+void CandidateManager::displayGroups() const
+{
+    GroupManager::displayAllGroups(hashTable);
+}
+
+void CandidateManager::distributeCandidatesToRooms()
+{
+    int numberOfRooms = 0;
+
+    cout << "Enter number of rooms: ";
+    while (!(cin >> numberOfRooms) || numberOfRooms <= 0)
+    {
+        cout << "Invalid input. Please enter a positive integer: ";
+        cin.clear();
+        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+    }
+
+    RoomManager roomManager;
+    if (roomManager.distributeCandidates(hashTable, numberOfRooms))
+    {
+        roomManager.displayRooms();
+    }
+}
+
+bool CandidateManager::saveData()
+{
+    return saveData("data/candidates_100.txt");
+}
+
 bool CandidateManager::saveData(const string& filename)
 {
     vector<Candidate> candidates = hashTable.getAllCandidates();
 
     return FileManager::saveToFile(candidates, filename);
+}
+
+bool CandidateManager::loadData()
+{
+    return loadData("data/candidates_100.txt");
 }
 
 bool CandidateManager::loadData(const string& filename)

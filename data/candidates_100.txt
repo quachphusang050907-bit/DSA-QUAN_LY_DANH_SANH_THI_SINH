@@ -1,4 +1,3 @@
-
 240001|Nguyễn Bảo Hải|Nam|08/04/2004|Hải Phòng
 240002|Bùi Khánh Ánh|Nam|01/02/2004|Bắc Ninh
 240003|Đặng Đức Thảo|Nam|21/12/2006|Thừa Thiên Huế

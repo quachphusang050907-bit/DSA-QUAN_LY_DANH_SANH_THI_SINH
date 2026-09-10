@@ -15,8 +15,11 @@ private:
     HashTable hashTable;
 
 public:
+    bool addCandidate();
     bool addCandidate(const Candidate& candidate);
+    Candidate* searchCandidate();
     Candidate* searchCandidate(const std::string& examID);
+    bool removeCandidate();
     bool removeCandidate(const std::string& examID);
 
     std::vector<Candidate> getAllCandidates() const;
@@ -24,6 +27,12 @@ public:
     std::vector<std::vector<Candidate>> groupCandidates() const;
     std::vector<Room> divideCandidates(int numberOfRooms);
 
+    void displaySortedCandidates() const;
+    void displayGroups() const;
+    void distributeCandidatesToRooms();
+
+    bool saveData();
     bool saveData(const std::string& filename);
+    bool loadData();
     bool loadData(const std::string& filename);
 };

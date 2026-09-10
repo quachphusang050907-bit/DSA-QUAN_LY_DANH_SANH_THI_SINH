@@ -120,7 +120,6 @@ vector<string> FileManager::split(
         }
     }
 
-
     // Thêm phần cuối cùng.
     parts.push_back(
         trim(currentPart)

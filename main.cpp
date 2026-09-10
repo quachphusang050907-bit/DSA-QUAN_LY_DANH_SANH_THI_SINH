@@ -1,7 +1,7 @@
 #include <iostream>
 #include <limits>
 
-#include "../include/Candidate.h"
+#include "include/CandidateManager.h"
 
 using namespace std;
 
@@ -33,7 +33,7 @@ int main() {
     CandidateManager manager;
 
     // Load dữ liệu từ candidates.txt
-    manager.loadData();
+    manager.loadData("data/candidates_100.txt");
 
     int choice;
 
