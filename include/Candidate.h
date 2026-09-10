@@ -1,10 +1,16 @@
-#pragma once
+#ifndef CANDIDATE_H
+#define CANDIDATE_H
+
 #include <string>
 
+using namespace std;
+
 struct Candidate {
-    std::string fullName;
-    std::string gender;
-    std::string examID;
-    std::string birthDate;
-    std::string hometown;
+    string fullName;
+    string gender;
+    string examID;
+    string birthDate;
+    string hometown;
 };
+
+#endif
