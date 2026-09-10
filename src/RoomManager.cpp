@@ -21,7 +21,7 @@ bool RoomManager::distributeCandidates(const HashTable& hashTable, int numRooms)
 
     // 2. Duyệt qua 26 Bucket của Hash Table (Tương ứng nhóm 'A' -> 'Z')
     for (int i = 0; i < 26; ++i) {
-        Node* curr = hashTable.getBucket(i); // Hàm lấy head LinkedList tại bucket i
+        Node* curr = hashTable.getBucket(i).getHead(); // Hàm lấy head LinkedList tại bucket i
         while (curr != nullptr) {
             // Thêm thí sinh vào phòng hiện tại
             rooms[currentRoomIndex].candidates.push_back(curr->data);

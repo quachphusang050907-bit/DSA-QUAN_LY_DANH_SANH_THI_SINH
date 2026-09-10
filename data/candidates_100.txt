@@ -1,0 +1,11 @@
+
+240001|Nguyễn Bảo Hải|Nam|08/04/2004|Hải Phòng
+240002|Bùi Khánh Ánh|Nam|01/02/2004|Bắc Ninh
+240003|Đặng Đức Thảo|Nam|21/12/2006|Thừa Thiên Huế
+240004|Võ Đạt Hải|Nam|26/01/2004|Thừa Thiên Huế
+240005|Hoàng Hải Đức|Nữ|25/06/2004|Đà Nẵng
+240006|Trần Ngọc Việt|Nữ|12/10/2005|TP. Hồ Chí Minh
+240007|Đặng Bích Khánh|Nữ|03/09/2005|Thanh Hóa
+240008|Hồ Hoàng Ánh|Nam|22/04/2005|Đà Nẵng
+240009|Dương Hoàng Khánh|Nam|09/08/2006|Thanh Hóa
+240010|Huỳnh Duy Đức|Nam|22/05/2006|Đà Nẵng

@@ -1,0 +1,1000 @@
+240001|Đặng Bảo Gia|Nam|06/08/2005|Bình Dương
+240002|Đỗ Duy Vân|Nam|25/01/2004|TP. Hồ Chí Minh
+240003|Vũ Phương Bắc|Nữ|07/10/2006|Quảng Ninh
+240004|Đỗ Hữu Khôi|Nam|21/08/2004|Bình Dương
+240005|Phạm Bảo Phong|Nam|18/05/2006|Thừa Thiên Huế
+240006|Huỳnh Thanh Châu|Nữ|17/08/2004|TP. Hồ Chí Minh
+240007|Lê Anh Dung|Nam|26/11/2005|Đà Nẵng
+240008|Vũ Ánh Mai|Nữ|17/05/2006|Hà Nội
+240009|Đỗ Thành Trí|Nam|09/11/2005|Hải Phòng
+240010|Vũ Hải Mai|Nữ|01/12/2006|Bình Dương
+240011|Đặng Hoàng Vinh|Nam|21/05/2006|Khánh Hòa
+240012|Lê Duy Trí|Nam|06/09/2006|Hà Nội
+240013|Võ Thị Chi|Nữ|12/05/2004|TP. Hồ Chí Minh
+240014|Lý Đạt Bảo|Nam|03/12/2005|Đà Nẵng
+240015|Lê Anh Minh|Nam|18/03/2005|Khánh Hòa
+240016|Phạm Thu Trí|Nữ|24/12/2004|Bình Định
+240017|Đỗ Khanh Huy|Nữ|15/09/2005|Hải Phòng
+240018|Phạm Hoàng Hùng|Nam|01/10/2006|Bắc Ninh
+240019|Nguyễn Hoàng Thảo|Nam|21/01/2004|Đà Nẵng
+240020|Dương Duy Bắc|Nam|17/04/2005|Lâm Đồng
+240021|Đặng Minh Thịnh|Nam|19/10/2005|Bắc Ninh
+240022|Ngô Như Đạt|Nữ|04/02/2006|Thừa Thiên Huế
+240023|Vũ Như Mai|Nữ|28/12/2004|Hải Phòng
+240024|Vũ Bảo Hùng|Nam|26/02/2004|Bà Rịa - Vũng Tàu
+240025|Đặng Hữu Châu|Nam|14/03/2005|Tiền Giang
+240026|Dương Hoàng Long|Nam|26/09/2004|TP. Hồ Chí Minh
+240027|Trần Đức Dung|Nam|14/08/2005|Bà Rịa - Vũng Tàu
+240028|Lý Thị Dung|Nữ|13/01/2005|Bình Dương
+240029|Hoàng Như Thành|Nữ|24/09/2006|Lâm Đồng
+240030|Phạm Quốc Đức|Nam|02/10/2006|Đồng Nai
+240031|Hồ Duy Bình|Nam|02/10/2005|Khánh Hòa
+240032|Nguyễn Thành Bảo|Nam|28/03/2004|Đà Nẵng
+240033|Vũ Hoàng Vũ|Nam|19/04/2006|TP. Hồ Chí Minh
+240034|Vũ Anh Phúc|Nam|19/09/2005|Bình Dương
+240035|Đỗ Bảo Hoàng|Nam|08/05/2005|Cần Thơ
+240036|Võ Ngọc Trí|Nữ|03/01/2005|Hải Phòng
+240037|Đặng Đức Nam|Nam|09/03/2005|Đà Nẵng
+240038|Huỳnh Quốc Dung|Nam|15/09/2006|Bình Định
+240039|Đỗ Thành Hoa|Nam|22/02/2004|Bình Dương
+240040|Lý Hoàng Trang|Nam|18/03/2005|Bình Định
+240041|Hồ Duy Đức|Nam|22/11/2005|Khánh Hòa
+240042|Hoàng Thị Bảo|Nữ|21/07/2005|TP. Hồ Chí Minh
+240043|Huỳnh Minh Quỳnh|Nam|09/03/2006|Tiền Giang
+240044|Đặng Thị Chi|Nữ|03/12/2004|Đồng Nai
+240045|Dương Duy Phúc|Nam|18/03/2005|Cần Thơ
+240046|Hoàng Duy Xuân|Nam|26/01/2005|Bà Rịa - Vũng Tàu
+240047|Đỗ Hoàng Hương|Nam|25/09/2005|Cần Thơ
+240048|Dương Minh Uỳnh|Nam|26/03/2005|Hà Nội
+240049|Hồ Duy Tú|Nam|14/11/2006|Bắc Ninh
+240050|Lê Kim Cường|Nữ|13/01/2005|Bắc Ninh
+240051|Dương Hữu Hương|Nam|10/04/2004|Hà Nội
+240052|Vũ Duy Hải|Nam|28/02/2005|Thanh Hóa
+240053|Đỗ Thu Hùng|Nữ|01/02/2005|An Giang
+240054|Nguyễn Bích Quan|Nữ|14/06/2006|Quảng Ninh
+240055|Bùi Thu Chi|Nữ|13/10/2004|Bình Dương
+240056|Hồ Khánh An|Nam|17/09/2006|Bà Rịa - Vũng Tàu
+240057|Vũ Bích Tâm|Nữ|11/10/2005|Hải Phòng
+240058|Đặng Phương Tâm|Nữ|14/06/2005|Bình Định
+240059|Phạm Khánh Tâm|Nam|13/11/2006|An Giang
+240060|Vũ Thu Vân|Nữ|01/05/2005|Bà Rịa - Vũng Tàu
+240061|Ngô Ánh Quan|Nữ|21/06/2005|Tiền Giang
+240062|Đỗ Thanh Nam|Nữ|16/12/2004|Đà Nẵng
+240063|Đặng Khanh Quỳnh|Nữ|20/06/2004|Bắc Ninh
+240064|Phạm Thanh Dũng|Nữ|01/01/2004|Lâm Đồng
+240065|Võ Khánh Vũ|Nam|21/10/2004|Nghệ An
+240066|Vũ Thanh Dũng|Nữ|21/12/2004|Hải Phòng
+240067|Phạm Hải Uỳnh|Nữ|23/09/2005|TP. Hồ Chí Minh
+240068|Lý Hoàng Mai|Nam|05/08/2006|Khánh Hòa
+240069|Ngô Mai Quân|Nữ|27/12/2006|Thừa Thiên Huế
+240070|Lý Hải Trang|Nữ|28/08/2005|Bình Dương
+240071|Dương Anh Hải|Nam|25/09/2005|Bắc Ninh
+240072|Võ Bích Thảo|Nữ|10/04/2005|Quảng Ninh
+240073|Lý Thu Bảo|Nữ|05/03/2004|Nghệ An
+240074|Hồ Đức Bắc|Nam|14/07/2005|Đồng Nai
+240075|Vũ Thị Đức|Nữ|27/07/2005|Hà Nội
+240076|Võ Thị Hương|Nữ|10/07/2005|Đồng Nai
+240077|Võ Đức Hải|Nam|14/08/2004|Nghệ An
+240078|Đỗ Khanh Uỳnh|Nữ|13/12/2004|Tiền Giang
+240079|Bùi Thành Anh|Nam|13/10/2006|Hà Nội
+240080|Đỗ Khánh Châu|Nam|28/08/2004|TP. Hồ Chí Minh
+240081|Vũ Ngọc Đức|Nữ|15/06/2005|Nghệ An
+240082|Ngô Như Hà|Nữ|27/02/2005|Hà Nội
+240083|Huỳnh Đức Sơn|Nam|03/11/2004|Hà Nội
+240084|Phạm Văn Quân|Nam|05/04/2004|Lâm Đồng
+240085|Bùi Đức Mai|Nam|23/05/2005|An Giang
+240086|Ngô Minh Hoa|Nam|04/10/2004|Bình Định
+240087|Vũ Kim Đạt|Nữ|03/10/2006|Bắc Ninh
+240088|Hồ Quốc Việt|Nam|22/10/2004|TP. Hồ Chí Minh
+240089|Đặng Như Tâm|Nữ|12/02/2006|Quảng Ninh
+240090|Dương Khánh Uyên|Nam|16/02/2005|Thanh Hóa
+240091|Hồ Hải Linh|Nữ|06/12/2006|Bình Dương
+240092|Võ Như Uyên|Nữ|24/10/2005|Quảng Ninh
+240093|Dương Hoàng Hải|Nam|15/04/2005|Nghệ An
+240094|Nguyễn Mai Việt|Nữ|11/03/2005|Bà Rịa - Vũng Tàu
+240095|Ngô Phương Hùng|Nữ|09/10/2006|Bình Dương
+240096|Đặng Đức Bảo|Nam|08/12/2005|Lâm Đồng
+240097|Hồ Hữu Sơn|Nam|23/08/2005|Hà Nội
+240098|Hoàng Đức Khôi|Nam|23/04/2005|Thanh Hóa
+240099|Đặng Thu Hương|Nữ|14/12/2006|Quảng Ninh
+240100|Hồ Mai Hải|Nữ|10/05/2004|Hải Phòng
+240101|Huỳnh Hoàng Trang|Nam|18/12/2004|Bà Rịa - Vũng Tàu
+240102|Hồ Hữu Hải|Nam|24/10/2006|Bình Định
+240103|Dương Đức Hạnh|Nam|08/06/2004|Bình Định
+240104|Hồ Thành Châu|Nam|09/01/2004|Đồng Nai
+240105|Hồ Hải Quỳnh|Nữ|28/08/2004|Hà Nội
+240106|Võ Mai Long|Nữ|11/03/2004|Bình Dương
+240107|Trần Bích Khôi|Nữ|16/02/2006|TP. Hồ Chí Minh
+240108|Lê Đạt Hoa|Nam|03/04/2004|Đồng Nai
+240109|Bùi Ánh Tú|Nữ|20/04/2006|Nghệ An
+240110|Lý Mai Hoa|Nữ|28/10/2005|Bình Định
+240111|Bùi Bảo Cường|Nam|25/04/2006|Bà Rịa - Vũng Tàu
+240112|Đỗ Bích Dung|Nữ|08/03/2006|Đà Nẵng
+240113|Nguyễn Khánh Long|Nam|23/10/2005|Bình Định
+240114|Phạm Quốc Thảo|Nam|10/12/2005|Đà Nẵng
+240115|Lý Quốc Tú|Nam|26/11/2006|Bà Rịa - Vũng Tàu
+240116|Trần Thu Giang|Nữ|21/03/2005|Cần Thơ
+240117|Nguyễn Minh Tú|Nam|10/10/2006|Bình Định
+240118|Trần Mai Thành|Nữ|10/12/2005|Bình Dương
+240119|Võ Bích Quan|Nữ|02/07/2006|Quảng Ninh
+240120|Nguyễn Bích Giang|Nữ|22/10/2006|Hà Nội
+240121|Bùi Thị Trí|Nữ|25/03/2005|Khánh Hòa
+240122|Lý Phương Dương|Nữ|19/07/2006|Lâm Đồng
+240123|Võ Duy Lan|Nam|11/06/2006|Hải Phòng
+240124|Huỳnh Khánh Thành|Nam|16/05/2006|Nghệ An
+240125|Võ Hoàng Hoàng|Nam|09/06/2004|Nghệ An
+240126|Đỗ Thành Mai|Nam|14/01/2004|Khánh Hòa
+240127|Bùi Mai Quỳnh|Nữ|15/01/2004|Bình Dương
+240128|Lý Quốc Long|Nam|23/08/2004|Hà Nội
+240129|Hồ Minh Hoa|Nam|18/01/2006|Thừa Thiên Huế
+240130|Phạm Hoàng Mai|Nam|04/11/2004|Lâm Đồng
+240131|Đặng Kim Hải|Nữ|14/08/2005|Bắc Ninh
+240132|Đặng Hải Khánh|Nữ|07/10/2006|Cần Thơ
+240133|Hoàng Khánh Hùng|Nam|26/09/2005|Hà Nội
+240134|Hồ Phương Vân|Nữ|19/10/2006|Lâm Đồng
+240135|Võ Thành Minh|Nam|12/06/2006|Đồng Nai
+240136|Võ Ngọc Vinh|Nữ|07/12/2004|Nghệ An
+240137|Dương Khánh Ánh|Nam|11/12/2005|Nghệ An
+240138|Đỗ Khanh Dũng|Nữ|16/01/2004|Khánh Hòa
+240139|Dương Bích Vinh|Nữ|28/08/2004|Khánh Hòa
+240140|Nguyễn Kim Dũng|Nữ|14/11/2004|Đà Nẵng
+240141|Ngô Phương Hùng|Nữ|20/12/2005|Đà Nẵng
+240142|Dương Khanh Việt|Nữ|18/07/2005|Lâm Đồng
+240143|Bùi Hoàng Gia|Nam|21/11/2005|Bắc Ninh
+240144|Vũ Hoàng Trí|Nam|21/12/2004|Tiền Giang
+240145|Hồ Quốc Xuân|Nam|01/01/2005|TP. Hồ Chí Minh
+240146|Huỳnh Ngọc Linh|Nữ|05/04/2006|Thừa Thiên Huế
+240147|Lê Minh Bảo|Nam|20/07/2006|Bắc Ninh
+240148|Lý Ánh Dũng|Nữ|08/08/2006|Bình Dương
+240149|Hoàng Khanh An|Nữ|26/08/2005|Đồng Nai
+240150|Trần Hữu Hương|Nam|19/05/2006|Thừa Thiên Huế
+240151|Võ Phương Đạt|Nữ|13/08/2004|Bắc Ninh
+240152|Bùi Ngọc Phú|Nữ|10/12/2005|Hà Nội
+240153|Hoàng Thị Phú|Nữ|28/11/2006|TP. Hồ Chí Minh
+240154|Dương Phương Tuấn|Nữ|26/04/2006|Thanh Hóa
+240155|Đỗ Đức Quân|Nam|09/11/2006|Cần Thơ
+240156|Lý Anh Sơn|Nam|02/05/2005|TP. Hồ Chí Minh
+240157|Hồ Hải Bảo|Nữ|10/06/2006|Thừa Thiên Huế
+240158|Phạm Minh Tú|Nam|18/06/2006|Khánh Hòa
+240159|Dương Hải Hà|Nữ|27/08/2005|Quảng Ninh
+240160|Võ Hoàng Dũng|Nam|25/04/2006|Nghệ An
+240161|Trần Như An|Nữ|09/09/2004|Tiền Giang
+240162|Đỗ Kim Tân|Nữ|09/10/2005|Thanh Hóa
+240163|Đỗ Đức Minh|Nam|01/10/2006|Quảng Ninh
+240164|Đỗ Hoàng Quỳnh|Nam|27/08/2006|Bình Định
+240165|Trần Hải Ánh|Nữ|02/05/2005|Hải Phòng
+240166|Phạm Thành Châu|Nam|13/08/2005|Đồng Nai
+240167|Bùi Kim Thịnh|Nữ|05/07/2006|Hải Phòng
+240168|Bùi Như Hải|Nữ|02/12/2005|Bà Rịa - Vũng Tàu
+240169|Võ Thanh Việt|Nữ|12/02/2006|Thanh Hóa
+240170|Nguyễn Như Hải|Nữ|07/02/2005|Đà Nẵng
+240171|Đỗ Anh Quan|Nam|01/01/2005|Bắc Ninh
+240172|Ngô Đạt Đức|Nam|03/09/2004|Bà Rịa - Vũng Tàu
+240173|Huỳnh Minh Tú|Nam|20/01/2005|Cần Thơ
+240174|Đặng Quốc Uỳnh|Nam|06/02/2006|Hà Nội
+240175|Nguyễn Duy Tú|Nam|26/04/2006|Quảng Ninh
+240176|Lê Quốc Bình|Nam|05/12/2005|Khánh Hòa
+240177|Hồ Hoàng Minh|Nam|15/06/2006|Hải Phòng
+240178|Đặng Thanh Quân|Nữ|02/12/2006|Khánh Hòa
+240179|Võ Khanh Anh|Nữ|02/08/2005|Thừa Thiên Huế
+240180|Võ Bảo Yến|Nam|15/02/2004|Quảng Ninh
+240181|Trần Minh Hải|Nam|20/11/2006|Đồng Nai
+240182|Vũ Ánh Nghĩa|Nữ|10/08/2006|Thừa Thiên Huế
+240183|Ngô Bảo Chi|Nam|28/11/2006|Đồng Nai
+240184|Vũ Hữu Vũ|Nam|08/07/2005|Tiền Giang
+240185|Vũ Kim Cường|Nữ|11/07/2005|Bình Dương
+240186|Lê Khanh Minh|Nữ|03/02/2004|Đà Nẵng
+240187|Trần Kim Trang|Nữ|12/03/2006|TP. Hồ Chí Minh
+240188|Đỗ Bích Lan|Nữ|12/11/2005|TP. Hồ Chí Minh
+240189|Bùi Phương Hương|Nữ|04/10/2006|Bà Rịa - Vũng Tàu
+240190|Đỗ Hữu Giang|Nam|28/02/2005|Đồng Nai
+240191|Trần Phương Phú|Nữ|08/07/2006|Đồng Nai
+240192|Bùi Anh Vân|Nam|23/05/2004|An Giang
+240193|Hồ Phương Yến|Nữ|11/06/2004|An Giang
+240194|Bùi Anh Khôi|Nam|03/03/2006|Hà Nội
+240195|Hồ Thành Đức|Nam|13/07/2005|Quảng Ninh
+240196|Huỳnh Quốc Thịnh|Nam|11/10/2006|Đà Nẵng
+240197|Lê Minh Trí|Nam|20/01/2006|Đà Nẵng
+240198|Võ Khanh Linh|Nữ|16/10/2005|Thừa Thiên Huế
+240199|Phạm Thu Chi|Nữ|12/07/2004|Bình Định
+240200|Đặng Khanh Hoa|Nữ|02/04/2005|TP. Hồ Chí Minh
+240201|Phạm Quốc Đức|Nam|25/03/2005|Bình Định
+240202|Trần Thị Mạnh|Nữ|24/07/2004|Cần Thơ
+240203|Đặng Kim Giang|Nữ|17/09/2006|Thanh Hóa
+240204|Vũ Bảo Ánh|Nam|14/01/2005|Đà Nẵng
+240205|Bùi Như Phú|Nữ|13/12/2006|Thừa Thiên Huế
+240206|Trần Như Anh|Nữ|11/03/2006|Tiền Giang
+240207|Trần Như Việt|Nữ|04/04/2005|Nghệ An
+240208|Vũ Quốc Trang|Nam|11/04/2005|An Giang
+240209|Đặng Anh Chi|Nam|17/09/2004|Thanh Hóa
+240210|Hồ Khanh Uyên|Nữ|05/04/2004|Cần Thơ
+240211|Phạm Hải Quan|Nữ|05/11/2004|An Giang
+240212|Võ Ánh Trí|Nữ|19/08/2006|Quảng Ninh
+240213|Lê Mai Bắc|Nữ|16/08/2006|Bình Định
+240214|Bùi Thị Hương|Nữ|17/02/2005|Tiền Giang
+240215|Nguyễn Thị Huy|Nữ|27/05/2004|Đà Nẵng
+240216|Võ Ánh Phong|Nữ|26/12/2004|Tiền Giang
+240217|Huỳnh Đạt Minh|Nam|17/03/2004|Tiền Giang
+240218|Ngô Duy Thảo|Nam|03/09/2006|An Giang
+240219|Phạm Bảo Long|Nam|15/09/2006|An Giang
+240220|Huỳnh Phương Khánh|Nữ|14/06/2006|TP. Hồ Chí Minh
+240221|Trần Ngọc Cường|Nữ|18/11/2005|Bình Định
+240222|Hồ Khanh Yến|Nữ|20/03/2005|Đà Nẵng
+240223|Lý Duy Hoa|Nam|21/12/2006|Nghệ An
+240224|Bùi Bảo Bảo|Nam|10/09/2005|Quảng Ninh
+240225|Đỗ Bảo Vân|Nam|24/11/2006|Đà Nẵng
+240226|Đặng Ngọc Anh|Nữ|12/05/2004|Bà Rịa - Vũng Tàu
+240227|Ngô Mai Đạt|Nữ|08/03/2004|Đà Nẵng
+240228|Dương Bích Nam|Nữ|25/09/2006|Khánh Hòa
+240229|Đỗ Duy Vũ|Nam|25/10/2004|Nghệ An
+240230|Lê Minh Vân|Nam|23/10/2004|Tiền Giang
+240231|Vũ Duy Tân|Nam|24/04/2005|Bình Định
+240232|Phạm Thu Gia|Nữ|10/08/2004|Thanh Hóa
+240233|Võ Phương Tuấn|Nữ|13/09/2006|Thừa Thiên Huế
+240234|Dương Đức Uỳnh|Nam|20/03/2005|TP. Hồ Chí Minh
+240235|Dương Ngọc Phong|Nữ|04/12/2006|Hải Phòng
+240236|Trần Hải Hải|Nữ|15/09/2004|Thừa Thiên Huế
+240237|Lý Đức Uyên|Nam|15/06/2004|Thừa Thiên Huế
+240238|Vũ Thành Huy|Nam|08/07/2004|Thanh Hóa
+240239|Nguyễn Duy Cường|Nam|27/12/2006|Quảng Ninh
+240240|Lê Văn Hạnh|Nam|27/08/2006|Cần Thơ
+240241|Võ Ánh An|Nữ|03/01/2005|Bà Rịa - Vũng Tàu
+240242|Đặng Bảo Quan|Nam|17/07/2004|Bình Định
+240243|Hoàng Hoàng Bình|Nam|08/07/2006|Tiền Giang
+240244|Trần Hữu Quan|Nam|18/01/2006|Khánh Hòa
+240245|Hồ Minh Hạnh|Nam|14/01/2006|Thanh Hóa
+240246|Bùi Khánh Dương|Nam|22/11/2004|Khánh Hòa
+240247|Trần Thu Ngọc|Nữ|17/09/2006|Hà Nội
+240248|Dương Mai Ánh|Nữ|21/07/2005|Bình Dương
+240249|Huỳnh Hoàng Hương|Nam|08/12/2006|Hải Phòng
+240250|Lê Thị Hương|Nữ|18/06/2006|An Giang
+240251|Hồ Mai Quỳnh|Nữ|06/03/2004|Tiền Giang
+240252|Hoàng Đức Ánh|Nam|26/04/2004|Quảng Ninh
+240253|Đặng Như Uyên|Nữ|18/08/2005|TP. Hồ Chí Minh
+240254|Hoàng Duy Vinh|Nam|25/01/2006|Quảng Ninh
+240255|Trần Ngọc Linh|Nữ|13/12/2005|Nghệ An
+240256|Lê Mai Thành|Nữ|16/06/2006|Bình Dương
+240257|Hồ Khánh Bảo|Nam|14/10/2004|Đồng Nai
+240258|Huỳnh Bích Bảo|Nữ|11/11/2005|Bình Định
+240259|Bùi Kim Linh|Nữ|06/12/2005|Thanh Hóa
+240260|Nguyễn Kim Vinh|Nữ|12/10/2005|Bình Dương
+240261|Trần Anh Quỳnh|Nam|13/06/2006|An Giang
+240262|Lê Đạt Tân|Nam|26/08/2004|Cần Thơ
+240263|Phạm Anh Huy|Nam|12/07/2006|TP. Hồ Chí Minh
+240264|Đỗ Hữu Huy|Nam|12/08/2004|Cần Thơ
+240265|Vũ Ngọc Sơn|Nữ|09/04/2004|Hà Nội
+240266|Võ Thành Khánh|Nam|18/02/2005|Bình Dương
+240267|Phạm Ánh Hạnh|Nữ|23/08/2004|Hải Phòng
+240268|Dương Hoàng Long|Nam|06/12/2005|Đà Nẵng
+240269|Đỗ Ngọc Thảo|Nữ|03/09/2006|Bình Định
+240270|Dương Hải Thảo|Nữ|23/12/2006|An Giang
+240271|Đặng Thanh Chi|Nữ|07/03/2004|Lâm Đồng
+240272|Huỳnh Thành Phú|Nam|12/08/2006|Cần Thơ
+240273|Trần Quốc Khôi|Nam|23/12/2005|Khánh Hòa
+240274|Ngô Như Uyên|Nữ|19/02/2004|Quảng Ninh
+240275|Võ Hữu Tân|Nam|17/06/2004|Đồng Nai
+240276|Ngô Minh Linh|Nam|17/01/2004|Khánh Hòa
+240277|Hoàng Minh Dung|Nam|11/12/2004|Thanh Hóa
+240278|Dương Bích Hà|Nữ|07/11/2006|Bình Dương
+240279|Đỗ Quốc Quân|Nam|18/02/2006|An Giang
+240280|Lê Anh Quân|Nam|24/10/2005|TP. Hồ Chí Minh
+240281|Trần Văn Sơn|Nam|25/10/2005|Bà Rịa - Vũng Tàu
+240282|Bùi Khanh Anh|Nữ|16/11/2006|Bình Định
+240283|Võ Thanh Uỳnh|Nữ|26/11/2005|Bình Định
+240284|Trần Kim Bình|Nữ|06/08/2005|Lâm Đồng
+240285|Phạm Ngọc Quan|Nữ|05/06/2006|Quảng Ninh
+240286|Vũ Hải Trí|Nữ|12/09/2006|Hải Phòng
+240287|Phạm Mai Chi|Nữ|09/08/2004|Cần Thơ
+240288|Nguyễn Quốc Khánh|Nam|28/10/2005|Bắc Ninh
+240289|Dương Duy Phú|Nam|24/06/2004|An Giang
+240290|Đặng Mai Mạnh|Nữ|10/08/2004|Đà Nẵng
+240291|Đặng Mai Gia|Nữ|07/10/2005|TP. Hồ Chí Minh
+240292|Hoàng Hữu Quan|Nam|27/11/2006|Lâm Đồng
+240293|Đặng Thị Việt|Nữ|04/07/2004|Bình Dương
+240294|Ngô Như Huy|Nữ|02/07/2004|Đồng Nai
+240295|Huỳnh Thành Hạnh|Nam|03/07/2006|Tiền Giang
+240296|Dương Ánh Tân|Nữ|20/02/2004|Hải Phòng
+240297|Huỳnh Ngọc Phong|Nữ|12/03/2004|Khánh Hòa
+240298|Đặng Thị Ánh|Nữ|02/03/2006|Quảng Ninh
+240299|Đặng Mai Dũng|Nữ|20/09/2004|Quảng Ninh
+240300|Lê Như Quân|Nữ|24/05/2006|Quảng Ninh
+240301|Hồ Ánh Hoa|Nữ|16/01/2005|Quảng Ninh
+240302|Vũ Đạt Hoa|Nam|26/12/2006|Hà Nội
+240303|Hoàng Khanh Tú|Nữ|25/10/2006|Bắc Ninh
+240304|Bùi Hữu Dung|Nam|17/11/2006|Nghệ An
+240305|Dương Anh Gia|Nam|02/10/2006|Hải Phòng
+240306|Nguyễn Hữu Hoàng|Nam|14/03/2005|Bà Rịa - Vũng Tàu
+240307|Đặng Ánh Yến|Nữ|16/12/2006|TP. Hồ Chí Minh
+240308|Đặng Đức Phong|Nam|11/11/2005|Khánh Hòa
+240309|Huỳnh Hải Mai|Nữ|18/06/2006|Thanh Hóa
+240310|Bùi Mai Đạt|Nữ|08/05/2006|Bình Định
+240311|Hoàng Quốc Thảo|Nam|07/12/2006|Lâm Đồng
+240312|Võ Ngọc Phong|Nữ|26/12/2005|Bình Định
+240313|Bùi Anh Ngọc|Nam|13/07/2005|Cần Thơ
+240314|Nguyễn Phương Thảo|Nữ|03/06/2005|Bình Dương
+240315|Phạm Thanh Uyên|Nữ|18/05/2006|Bình Dương
+240316|Trần Đạt Trang|Nam|19/04/2004|TP. Hồ Chí Minh
+240317|Đỗ Đức Bình|Nam|04/07/2005|Lâm Đồng
+240318|Đỗ Minh An|Nam|18/03/2005|Lâm Đồng
+240319|Đỗ Thanh Trí|Nữ|10/06/2005|TP. Hồ Chí Minh
+240320|Đỗ Đạt Giang|Nam|18/12/2006|TP. Hồ Chí Minh
+240321|Vũ Minh Yến|Nam|02/07/2005|An Giang
+240322|Lý Thị An|Nữ|10/10/2006|Hải Phòng
+240323|Hoàng Mai Sơn|Nữ|18/09/2005|Cần Thơ
+240324|Hoàng Thanh Uỳnh|Nữ|04/06/2004|Tiền Giang
+240325|Hồ Hải An|Nữ|24/06/2005|Bà Rịa - Vũng Tàu
+240326|Bùi Anh Xuân|Nam|13/07/2006|Quảng Ninh
+240327|Vũ Anh Cường|Nam|06/03/2005|Quảng Ninh
+240328|Nguyễn Quốc Khánh|Nam|08/08/2005|Quảng Ninh
+240329|Bùi Kim Phú|Nữ|01/05/2006|Thanh Hóa
+240330|Nguyễn Anh Chi|Nam|15/05/2004|Nghệ An
+240331|Hồ Bích Quỳnh|Nữ|10/06/2006|Bắc Ninh
+240332|Lê Hữu Dũng|Nam|15/12/2006|Thanh Hóa
+240333|Hồ Thu Yến|Nữ|16/09/2006|Bà Rịa - Vũng Tàu
+240334|Đỗ Đạt Vinh|Nam|26/02/2006|Tiền Giang
+240335|Trần Ánh Chi|Nữ|02/09/2006|Bà Rịa - Vũng Tàu
+240336|Lê Duy Việt|Nam|17/08/2004|Bà Rịa - Vũng Tàu
+240337|Trần Thu Long|Nữ|26/01/2005|Cần Thơ
+240338|Võ Ánh Bình|Nữ|18/08/2006|Bình Định
+240339|Vũ Quốc Uyên|Nam|01/12/2004|Đà Nẵng
+240340|Vũ Duy Thành|Nam|03/09/2004|Đà Nẵng
+240341|Nguyễn Phương Lan|Nữ|06/03/2006|Thừa Thiên Huế
+240342|Lý Như Long|Nữ|28/07/2005|Đà Nẵng
+240343|Đỗ Duy Chi|Nam|06/09/2005|Khánh Hòa
+240344|Hồ Đức Vân|Nam|01/01/2005|Tiền Giang
+240345|Đặng Như Uyên|Nữ|08/04/2005|Thanh Hóa
+240346|Hoàng Đức Vũ|Nam|24/02/2004|Thừa Thiên Huế
+240347|Phạm Đức Bắc|Nam|04/10/2004|Tiền Giang
+240348|Phạm Bảo Ánh|Nam|13/08/2004|Đồng Nai
+240349|Ngô Văn Châu|Nam|17/05/2004|Quảng Ninh
+240350|Phạm Phương Vũ|Nữ|05/11/2006|Bắc Ninh
+240351|Hoàng Phương Bình|Nữ|18/10/2006|An Giang
+240352|Đặng Mai Bình|Nữ|12/11/2006|Nghệ An
+240353|Hồ Như Lan|Nữ|05/05/2005|An Giang
+240354|Phạm Thanh Hoa|Nữ|28/12/2004|Tiền Giang
+240355|Đặng Khánh Lan|Nam|18/09/2004|Nghệ An
+240356|Hoàng Đức Hùng|Nam|21/02/2005|Thanh Hóa
+240357|Đặng Bảo Vân|Nam|07/01/2005|Nghệ An
+240358|Dương Hoàng Đạt|Nam|26/10/2006|Đồng Nai
+240359|Võ Đức Vinh|Nam|11/05/2004|Bà Rịa - Vũng Tàu
+240360|Hồ Hoàng Trang|Nam|25/08/2004|Bà Rịa - Vũng Tàu
+240361|Lý Thanh Phong|Nữ|11/05/2005|Tiền Giang
+240362|Hoàng Phương Huy|Nữ|17/08/2005|Hải Phòng
+240363|Ngô Ngọc Yến|Nữ|07/06/2005|Thừa Thiên Huế
+240364|Bùi Đức Trang|Nam|05/01/2005|Đồng Nai
+240365|Hoàng Hải Đạt|Nữ|11/04/2005|Bắc Ninh
+240366|Đặng Khanh Tân|Nữ|11/05/2005|Lâm Đồng
+240367|Lê Kim Tú|Nữ|12/03/2004|Đồng Nai
+240368|Lê Thu Sơn|Nữ|02/09/2004|Đà Nẵng
+240369|Ngô Văn Lan|Nam|05/11/2004|Đà Nẵng
+240370|Nguyễn Đức Nam|Nam|15/06/2004|Lâm Đồng
+240371|Nguyễn Thị Ngọc|Nữ|18/07/2004|Hà Nội
+240372|Đặng Phương Anh|Nữ|17/12/2006|Thừa Thiên Huế
+240373|Trần Hoàng Nghĩa|Nam|05/04/2004|Khánh Hòa
+240374|Dương Ngọc Hải|Nữ|26/07/2004|Thanh Hóa
+240375|Võ Ánh Gia|Nữ|23/04/2005|Đà Nẵng
+240376|Trần Khánh Khánh|Nam|13/09/2005|TP. Hồ Chí Minh
+240377|Hồ Minh Bảo|Nam|16/07/2006|Quảng Ninh
+240378|Lý Thành Yến|Nam|02/04/2004|Lâm Đồng
+240379|Nguyễn Bích Tân|Nữ|09/09/2006|TP. Hồ Chí Minh
+240380|Lý Duy Anh|Nam|07/10/2004|Nghệ An
+240381|Hoàng Minh Phú|Nam|08/10/2005|Đồng Nai
+240382|Vũ Kim Châu|Nữ|26/12/2006|Đà Nẵng
+240383|Nguyễn Bích Linh|Nữ|08/02/2005|Nghệ An
+240384|Nguyễn Khanh Hải|Nữ|26/08/2005|Bắc Ninh
+240385|Đặng Như Linh|Nữ|06/11/2006|Nghệ An
+240386|Ngô Đạt Hạnh|Nam|26/04/2006|Đà Nẵng
+240387|Hoàng Minh Khánh|Nam|23/11/2004|Nghệ An
+240388|Huỳnh Bích Bảo|Nữ|01/05/2005|Thanh Hóa
+240389|Trần Hải Bảo|Nữ|06/07/2005|Đồng Nai
+240390|Trần Thị Bảo|Nữ|12/09/2004|Quảng Ninh
+240391|Nguyễn Phương Lan|Nữ|13/02/2006|Đồng Nai
+240392|Bùi Thành Dung|Nam|22/07/2004|Cần Thơ
+240393|Hoàng Phương Mạnh|Nữ|05/02/2004|Thừa Thiên Huế
+240394|Vũ Phương Minh|Nữ|26/02/2005|Bình Dương
+240395|Hồ Anh Mạnh|Nam|20/10/2004|Tiền Giang
+240396|Lê Quốc An|Nam|13/06/2006|Nghệ An
+240397|Võ Ngọc Linh|Nữ|27/11/2006|Cần Thơ
+240398|Huỳnh Ánh Thành|Nữ|07/08/2005|An Giang
+240399|Huỳnh Phương Trang|Nữ|23/11/2005|Bắc Ninh
+240400|Vũ Phương Uyên|Nữ|26/07/2005|Hải Phòng
+240401|Bùi Thành Dương|Nam|22/09/2004|Tiền Giang
+240402|Võ Quốc Vân|Nam|23/02/2005|Lâm Đồng
+240403|Đỗ Quốc Gia|Nam|09/11/2004|Thừa Thiên Huế
+240404|Trần Mai Quan|Nữ|16/10/2005|Đồng Nai
+240405|Đặng Thị Tú|Nữ|12/12/2006|Đà Nẵng
+240406|Ngô Đức Tâm|Nam|22/06/2004|TP. Hồ Chí Minh
+240407|Ngô Ngọc Tú|Nữ|14/02/2004|Hải Phòng
+240408|Phạm Thu Trang|Nữ|17/09/2006|Bắc Ninh
+240409|Huỳnh Như Mai|Nữ|25/11/2006|Khánh Hòa
+240410|Huỳnh Văn Minh|Nam|04/05/2005|Đà Nẵng
+240411|Dương Bảo Dũng|Nam|12/05/2005|Tiền Giang
+240412|Đặng Hữu Hương|Nam|16/02/2005|Tiền Giang
+240413|Trần Phương Ánh|Nữ|26/12/2004|Hà Nội
+240414|Đỗ Bích Tân|Nữ|26/03/2006|Bắc Ninh
+240415|Đặng Minh Hùng|Nam|18/07/2005|Bắc Ninh
+240416|Đỗ Hải Dương|Nữ|21/11/2005|Nghệ An
+240417|Hồ Đạt Vũ|Nam|07/08/2006|Thừa Thiên Huế
+240418|Nguyễn Kim Đức|Nữ|07/05/2006|Đà Nẵng
+240419|Ngô Thành Dương|Nam|12/06/2004|Tiền Giang
+240420|Hoàng Anh Vinh|Nam|16/09/2006|Quảng Ninh
+240421|Bùi Như Phúc|Nữ|04/06/2005|Tiền Giang
+240422|Dương Anh Thảo|Nam|26/05/2006|Đà Nẵng
+240423|Huỳnh Hoàng Gia|Nam|10/02/2004|Thanh Hóa
+240424|Đặng Khánh Lan|Nam|20/03/2006|Nghệ An
+240425|Lê Mai Quỳnh|Nữ|18/12/2006|An Giang
+240426|Võ Quốc Châu|Nam|06/06/2005|TP. Hồ Chí Minh
+240427|Nguyễn Mai Châu|Nữ|07/07/2006|Khánh Hòa
+240428|Vũ Khanh Mạnh|Nữ|14/12/2005|Lâm Đồng
+240429|Trần Đạt Anh|Nam|26/04/2005|TP. Hồ Chí Minh
+240430|Phạm Thu Hạnh|Nữ|06/08/2006|Lâm Đồng
+240431|Bùi Hoàng Hải|Nam|25/09/2005|Đồng Nai
+240432|Ngô Bảo Long|Nam|18/04/2005|Hải Phòng
+240433|Hoàng Văn Long|Nam|09/06/2004|Tiền Giang
+240434|Ngô Đức Đức|Nam|26/12/2006|Thanh Hóa
+240435|Lê Ánh Châu|Nữ|26/04/2004|TP. Hồ Chí Minh
+240436|Đặng Phương Quan|Nữ|18/03/2005|Bình Định
+240437|Bùi Phương Việt|Nữ|17/11/2004|Cần Thơ
+240438|Lý Thị Hải|Nữ|28/11/2004|Cần Thơ
+240439|Lê Bảo Hoàng|Nam|27/04/2006|Nghệ An
+240440|Lê Ánh Quỳnh|Nữ|09/11/2005|Nghệ An
+240441|Trần Khanh Tú|Nữ|25/02/2005|Khánh Hòa
+240442|Hồ Ngọc Mai|Nữ|16/06/2006|Hà Nội
+240443|Hồ Hữu Quỳnh|Nam|22/12/2005|Đà Nẵng
+240444|Phạm Như Uyên|Nữ|07/08/2005|Quảng Ninh
+240445|Huỳnh Thu Phú|Nữ|05/10/2005|Quảng Ninh
+240446|Nguyễn Hoàng Quỳnh|Nam|26/08/2004|Hải Phòng
+240447|Võ Hữu An|Nam|14/04/2006|Cần Thơ
+240448|Lê Phương Bảo|Nữ|21/06/2005|Đà Nẵng
+240449|Đỗ Khanh Dung|Nữ|02/07/2006|Bình Định
+240450|Vũ Anh Bảo|Nam|23/02/2004|Bà Rịa - Vũng Tàu
+240451|Trần Hải Phúc|Nữ|08/09/2006|Tiền Giang
+240452|Nguyễn Bảo Hùng|Nam|27/02/2005|Cần Thơ
+240453|Trần Thanh Khánh|Nữ|03/12/2004|Hải Phòng
+240454|Huỳnh Phương Châu|Nữ|13/03/2006|Cần Thơ
+240455|Đặng Đạt An|Nam|20/11/2004|Tiền Giang
+240456|Hồ Thanh Quỳnh|Nữ|24/03/2005|Tiền Giang
+240457|Trần Hoàng Châu|Nam|25/02/2006|Nghệ An
+240458|Vũ Ngọc Tú|Nữ|05/04/2005|Đà Nẵng
+240459|Đặng Đạt Quan|Nam|24/10/2005|Hà Nội
+240460|Phạm Thu Quan|Nữ|17/04/2006|Nghệ An
+240461|Đỗ Thị Tú|Nữ|26/04/2005|Nghệ An
+240462|Phạm Hữu Quỳnh|Nam|20/02/2006|Hà Nội
+240463|Lý Ngọc Châu|Nữ|13/10/2005|Thanh Hóa
+240464|Ngô Hữu Tuấn|Nam|03/01/2006|Đà Nẵng
+240465|Hoàng Đức Ánh|Nam|02/07/2006|Bình Định
+240466|Vũ Kim Khôi|Nữ|03/11/2006|Đồng Nai
+240467|Hoàng Hoàng Hoa|Nam|03/09/2004|Cần Thơ
+240468|Vũ Ánh Quỳnh|Nữ|25/11/2006|Đà Nẵng
+240469|Hồ Như Thịnh|Nữ|28/04/2004|Bắc Ninh
+240470|Lý Khánh Chi|Nam|15/10/2006|TP. Hồ Chí Minh
+240471|Đỗ Kim Tâm|Nữ|24/03/2004|Hà Nội
+240472|Hồ Văn Dung|Nam|16/06/2006|Khánh Hòa
+240473|Lê Ngọc Châu|Nữ|24/05/2006|Hải Phòng
+240474|Huỳnh Khánh Hải|Nam|17/02/2005|Đà Nẵng
+240475|Võ Thu Huy|Nữ|02/08/2006|An Giang
+240476|Lê Phương Tuấn|Nữ|04/10/2006|Hải Phòng
+240477|Hồ Thành An|Nam|02/01/2004|TP. Hồ Chí Minh
+240478|Huỳnh Như Yến|Nữ|05/03/2004|Đồng Nai
+240479|Phạm Ngọc Gia|Nữ|14/12/2005|Bình Dương
+240480|Bùi Duy Chi|Nam|17/11/2004|An Giang
+240481|Ngô Thành Ánh|Nam|13/02/2005|Bình Định
+240482|Huỳnh Bích Phong|Nữ|15/01/2005|Bà Rịa - Vũng Tàu
+240483|Bùi Phương Trang|Nữ|20/04/2005|Thanh Hóa
+240484|Ngô Thanh Thịnh|Nữ|18/04/2004|Hà Nội
+240485|Nguyễn Thanh Ngọc|Nữ|12/11/2006|Hà Nội
+240486|Nguyễn Khanh Khánh|Nữ|28/12/2006|Bình Định
+240487|Phạm Thành Gia|Nam|14/08/2004|Cần Thơ
+240488|Trần Thị Yến|Nữ|08/09/2005|Thanh Hóa
+240489|Hồ Bích Phúc|Nữ|04/09/2004|Nghệ An
+240490|Bùi Đạt Bình|Nam|14/11/2004|Bắc Ninh
+240491|Hoàng Ngọc Uỳnh|Nữ|13/12/2006|Quảng Ninh
+240492|Võ Phương Giang|Nữ|03/04/2004|Hải Phòng
+240493|Trần Minh Long|Nam|15/06/2005|Hải Phòng
+240494|Ngô Thanh Long|Nữ|10/08/2005|Hải Phòng
+240495|Lê Anh Hoa|Nam|27/12/2006|TP. Hồ Chí Minh
+240496|Dương Duy Dũng|Nam|03/12/2004|Thanh Hóa
+240497|Đặng Thị Tân|Nữ|10/05/2004|Hà Nội
+240498|Dương Mai Phong|Nữ|24/09/2004|Hải Phòng
+240499|Trần Hải Chi|Nữ|01/01/2004|Cần Thơ
+240500|Dương Khánh Huy|Nam|22/11/2006|Đà Nẵng
+240501|Lý Bích Anh|Nữ|03/04/2006|Tiền Giang
+240502|Trần Duy Chi|Nam|02/08/2004|An Giang
+240503|Dương Kim Khôi|Nữ|16/01/2005|Thừa Thiên Huế
+240504|Huỳnh Đức Yến|Nam|06/05/2005|Tiền Giang
+240505|Nguyễn Đạt Quân|Nam|20/04/2006|Bình Định
+240506|Vũ Thu Minh|Nữ|02/02/2005|Nghệ An
+240507|Vũ Đức Sơn|Nam|26/09/2004|Đồng Nai
+240508|Vũ Bảo Hương|Nam|16/09/2005|Thanh Hóa
+240509|Vũ Phương Dương|Nữ|01/06/2006|Bắc Ninh
+240510|Lý Quốc Bình|Nam|26/08/2006|Thanh Hóa
+240511|Lê Hoàng Gia|Nam|22/04/2005|Đồng Nai
+240512|Ngô Đức Phú|Nam|28/07/2005|An Giang
+240513|Phạm Đạt Hoàng|Nam|26/12/2006|Thanh Hóa
+240514|Hồ Bảo Hương|Nam|19/10/2004|Bà Rịa - Vũng Tàu
+240515|Đặng Phương Dương|Nữ|16/01/2004|TP. Hồ Chí Minh
+240516|Bùi Đức Anh|Nam|17/08/2004|Quảng Ninh
+240517|Ngô Minh Hùng|Nam|23/03/2005|TP. Hồ Chí Minh
+240518|Lê Đạt Thảo|Nam|05/02/2006|Thanh Hóa
+240519|Huỳnh Bảo Tâm|Nam|13/10/2004|Quảng Ninh
+240520|Huỳnh Hải Dung|Nữ|24/07/2006|Lâm Đồng
+240521|Lê Kim Phong|Nữ|23/10/2005|Bắc Ninh
+240522|Vũ Quốc Thịnh|Nam|23/05/2004|An Giang
+240523|Hồ Đạt Khôi|Nam|28/10/2004|An Giang
+240524|Lý Ánh Giang|Nữ|21/10/2004|Lâm Đồng
+240525|Huỳnh Bảo Bắc|Nam|08/06/2005|An Giang
+240526|Dương Bảo Tâm|Nam|21/12/2005|Tiền Giang
+240527|Hoàng Đức Gia|Nam|23/02/2005|Bình Dương
+240528|Hồ Văn Bình|Nam|13/08/2006|Thừa Thiên Huế
+240529|Lý Khánh Mạnh|Nam|13/06/2006|Nghệ An
+240530|Dương Hữu Tú|Nam|28/10/2006|Bắc Ninh
+240531|Võ Hoàng Uỳnh|Nam|28/01/2005|Hà Nội
+240532|Hoàng Bích Bắc|Nữ|11/03/2005|An Giang
+240533|Đặng Hoàng Hùng|Nam|20/10/2005|Hà Nội
+240534|Đỗ Hải Quan|Nữ|14/03/2004|Hải Phòng
+240535|Phạm Thanh Lan|Nữ|23/09/2006|Đồng Nai
+240536|Đỗ Phương Hoa|Nữ|08/02/2004|Nghệ An
+240537|Lê Thị Huy|Nữ|01/07/2004|Bình Định
+240538|Phạm Bích Anh|Nữ|07/03/2006|Bình Định
+240539|Võ Hoàng Hoa|Nam|26/07/2005|Lâm Đồng
+240540|Trần Khanh Ngọc|Nữ|13/03/2005|Nghệ An
+240541|Lê Mai Ánh|Nữ|09/08/2005|Bình Dương
+240542|Dương Quốc Phú|Nam|02/03/2006|Hải Phòng
+240543|Đỗ Duy Uỳnh|Nam|18/07/2006|Bắc Ninh
+240544|Dương Khánh Uyên|Nam|17/07/2006|Lâm Đồng
+240545|Võ Quốc Bảo|Nam|13/12/2004|Khánh Hòa
+240546|Trần Hữu Dương|Nam|06/04/2004|Cần Thơ
+240547|Vũ Hoàng Tân|Nam|14/04/2006|Cần Thơ
+240548|Huỳnh Kim Yến|Nữ|26/02/2004|Nghệ An
+240549|Đặng Ngọc Việt|Nữ|09/09/2005|Hà Nội
+240550|Trần Như Dũng|Nữ|05/10/2006|Hải Phòng
+240551|Bùi Hoàng Tú|Nam|10/09/2005|Thừa Thiên Huế
+240552|Vũ Khanh Mạnh|Nữ|19/10/2005|TP. Hồ Chí Minh
+240553|Hoàng Khánh Dũng|Nam|20/10/2006|Nghệ An
+240554|Vũ Duy Thành|Nam|08/01/2006|Lâm Đồng
+240555|Lý Ngọc Anh|Nữ|11/05/2005|Bình Dương
+240556|Dương Kim Tân|Nữ|04/04/2004|Bình Định
+240557|Ngô Ngọc Hải|Nữ|24/07/2006|Đà Nẵng
+240558|Võ Đức Yến|Nam|27/07/2006|Lâm Đồng
+240559|Dương Thị Nam|Nữ|26/03/2004|Bình Định
+240560|Lê Thu Vũ|Nữ|19/01/2004|Bà Rịa - Vũng Tàu
+240561|Dương Văn Gia|Nam|02/08/2004|Thanh Hóa
+240562|Hoàng Duy Uyên|Nam|15/09/2005|Hải Phòng
+240563|Phạm Duy Mạnh|Nam|20/08/2004|Lâm Đồng
+240564|Huỳnh Hải Vân|Nữ|09/12/2006|Đà Nẵng
+240565|Nguyễn Như Bình|Nữ|06/10/2004|Bắc Ninh
+240566|Đỗ Đức Hải|Nam|21/07/2006|Hà Nội
+240567|Võ Minh Sơn|Nam|06/10/2004|Bắc Ninh
+240568|Bùi Phương Thảo|Nữ|23/11/2005|Thừa Thiên Huế
+240569|Dương Ngọc Mai|Nữ|09/04/2005|Bình Định
+240570|Bùi Bích An|Nữ|17/11/2005|Đồng Nai
+240571|Hoàng Khanh Cường|Nữ|16/02/2005|Bình Dương
+240572|Dương Phương Hà|Nữ|21/12/2006|Bình Định
+240573|Lê Thành Trí|Nam|08/01/2006|Nghệ An
+240574|Đỗ Hải Thịnh|Nữ|01/11/2005|Bình Định
+240575|Lý Như Khôi|Nữ|13/12/2004|Bà Rịa - Vũng Tàu
+240576|Hồ Kim Giang|Nữ|22/09/2006|Lâm Đồng
+240577|Đặng Phương Việt|Nữ|06/11/2006|An Giang
+240578|Trần Mai Châu|Nữ|24/05/2006|Đồng Nai
+240579|Đỗ Duy Sơn|Nam|03/04/2005|Bắc Ninh
+240580|Vũ Ngọc Huy|Nữ|09/10/2005|Tiền Giang
+240581|Võ Văn Vinh|Nam|21/10/2006|Đà Nẵng
+240582|Lý Thanh Nam|Nữ|04/11/2005|Khánh Hòa
+240583|Vũ Thị Vinh|Nữ|28/03/2004|Bà Rịa - Vũng Tàu
+240584|Vũ Ánh Xuân|Nữ|15/03/2005|An Giang
+240585|Võ Duy Quỳnh|Nam|06/06/2006|TP. Hồ Chí Minh
+240586|Võ Quốc Đức|Nam|25/03/2006|An Giang
+240587|Ngô Bích Châu|Nữ|20/07/2006|Thừa Thiên Huế
+240588|Vũ Mai Khánh|Nữ|01/01/2006|Bà Rịa - Vũng Tàu
+240589|Nguyễn Ngọc Trí|Nữ|27/09/2004|Hà Nội
+240590|Đỗ Bảo Gia|Nam|08/12/2005|Bình Định
+240591|Trần Khánh Nam|Nam|19/05/2004|Đà Nẵng
+240592|Hoàng Quốc Mai|Nam|24/09/2006|Khánh Hòa
+240593|Vũ Khanh Châu|Nữ|11/08/2005|Bà Rịa - Vũng Tàu
+240594|Lý Khánh Anh|Nam|08/04/2006|Cần Thơ
+240595|Hồ Văn Phúc|Nam|17/03/2004|Thanh Hóa
+240596|Vũ Anh Hà|Nam|25/09/2006|TP. Hồ Chí Minh
+240597|Đỗ Hoàng Sơn|Nam|27/01/2004|Hải Phòng
+240598|Võ Như Chi|Nữ|18/05/2005|Cần Thơ
+240599|Hồ Anh Quỳnh|Nam|01/05/2005|Hải Phòng
+240600|Bùi Ánh Thành|Nữ|05/07/2004|Khánh Hòa
+240601|Hoàng Hoàng Tú|Nam|04/08/2004|Bà Rịa - Vũng Tàu
+240602|Dương Thu Đạt|Nữ|12/12/2005|Bình Định
+240603|Nguyễn Thành Mạnh|Nam|07/12/2005|Quảng Ninh
+240604|Nguyễn Văn Tâm|Nam|03/02/2006|Lâm Đồng
+240605|Trần Thành Bắc|Nam|24/12/2004|Bình Dương
+240606|Võ Quốc Hà|Nam|15/01/2004|An Giang
+240607|Dương Quốc Huy|Nam|26/11/2005|Thừa Thiên Huế
+240608|Trần Văn An|Nam|28/03/2006|An Giang
+240609|Huỳnh Mai Quân|Nữ|09/12/2004|Thanh Hóa
+240610|Lê Bích Khôi|Nữ|13/08/2005|Nghệ An
+240611|Ngô Như Sơn|Nữ|26/03/2004|Cần Thơ
+240612|Dương Minh Cường|Nam|14/10/2005|Tiền Giang
+240613|Bùi Khánh Tuấn|Nam|12/10/2004|Cần Thơ
+240614|Lý Mai Chi|Nữ|14/08/2004|Đà Nẵng
+240615|Đỗ Ngọc An|Nữ|23/11/2006|Bắc Ninh
+240616|Đặng Thu Thành|Nữ|23/10/2004|Thừa Thiên Huế
+240617|Võ Duy Tâm|Nam|22/11/2005|Cần Thơ
+240618|Nguyễn Anh Dung|Nam|17/08/2005|An Giang
+240619|Ngô Hữu Hoàng|Nam|08/06/2005|TP. Hồ Chí Minh
+240620|Đặng Anh Khánh|Nam|13/04/2004|Tiền Giang
+240621|Ngô Ánh Long|Nữ|03/08/2005|Quảng Ninh
+240622|Võ Bảo Sơn|Nam|01/02/2005|Thừa Thiên Huế
+240623|Đặng Thành An|Nam|27/02/2006|Bình Định
+240624|Đỗ Anh Mai|Nam|11/06/2004|Bắc Ninh
+240625|Huỳnh Thu Tuấn|Nữ|20/10/2005|Thanh Hóa
+240626|Trần Bích Trí|Nữ|22/04/2004|Quảng Ninh
+240627|Dương Khanh Uỳnh|Nữ|10/09/2006|Thanh Hóa
+240628|Nguyễn Minh Mạnh|Nam|05/12/2006|Thừa Thiên Huế
+240629|Hoàng Đạt Đạt|Nam|07/02/2005|Bà Rịa - Vũng Tàu
+240630|Dương Thanh Thảo|Nữ|11/02/2005|TP. Hồ Chí Minh
+240631|Ngô Hữu Mai|Nam|22/10/2006|Cần Thơ
+240632|Nguyễn Thu Trang|Nữ|02/09/2005|Lâm Đồng
+240633|Hồ Đạt Dương|Nam|24/03/2004|Nghệ An
+240634|Đặng Như Lan|Nữ|20/12/2004|Bình Dương
+240635|Huỳnh Phương Long|Nữ|26/03/2004|Thừa Thiên Huế
+240636|Dương Kim Phong|Nữ|28/06/2006|Đồng Nai
+240637|Phạm Đức Quân|Nam|23/05/2006|Thanh Hóa
+240638|Hồ Anh Dương|Nam|17/09/2006|Quảng Ninh
+240639|Ngô Duy Phong|Nam|16/10/2006|Thừa Thiên Huế
+240640|Lý Như Uỳnh|Nữ|01/09/2004|Hà Nội
+240641|Lê Thị Tâm|Nữ|02/04/2005|An Giang
+240642|Đỗ Phương Dũng|Nữ|27/01/2006|Bình Định
+240643|Ngô Thành Ánh|Nam|12/08/2004|Đồng Nai
+240644|Hồ Anh Phong|Nam|13/04/2006|Bình Định
+240645|Lý Khánh Khánh|Nam|14/11/2005|Đồng Nai
+240646|Nguyễn Bảo Hà|Nam|07/10/2005|Bắc Ninh
+240647|Ngô Ánh Ngọc|Nữ|24/10/2004|Bà Rịa - Vũng Tàu
+240648|Võ Hải Tân|Nữ|03/03/2004|Khánh Hòa
+240649|Vũ Văn Linh|Nam|09/09/2005|Cần Thơ
+240650|Bùi Quốc An|Nam|11/08/2006|Cần Thơ
+240651|Lê Duy Quan|Nam|02/11/2006|Bình Định
+240652|Ngô Ánh Phong|Nữ|12/02/2006|Quảng Ninh
+240653|Lê Thành Bắc|Nam|26/09/2004|Thừa Thiên Huế
+240654|Trần Ngọc Giang|Nữ|07/11/2005|Quảng Ninh
+240655|Hoàng Thanh Trí|Nữ|20/09/2005|Đồng Nai
+240656|Trần Anh Hương|Nam|15/04/2006|Bắc Ninh
+240657|Đỗ Duy Khánh|Nam|26/02/2005|Bình Dương
+240658|Nguyễn Thu Uyên|Nữ|25/06/2006|Khánh Hòa
+240659|Võ Thị Hạnh|Nữ|21/04/2005|Khánh Hòa
+240660|Trần Minh Tuấn|Nam|18/09/2004|Đà Nẵng
+240661|Đỗ Anh Tuấn|Nam|07/11/2005|Hải Phòng
+240662|Đặng Bảo Vũ|Nam|24/07/2006|Đà Nẵng
+240663|Nguyễn Hữu Thảo|Nam|11/01/2004|Đà Nẵng
+240664|Lê Quốc Phong|Nam|03/10/2004|Bình Dương
+240665|Vũ Mai Quỳnh|Nữ|13/07/2005|Hà Nội
+240666|Đỗ Bích Ngọc|Nữ|01/11/2006|Đà Nẵng
+240667|Hồ Hoàng Hương|Nam|17/02/2005|Bình Định
+240668|Hoàng Hữu Khánh|Nam|13/11/2004|Lâm Đồng
+240669|Đặng Đức Châu|Nam|24/07/2006|Bình Định
+240670|Hoàng Anh Vũ|Nam|26/12/2006|Thanh Hóa
+240671|Đặng Thành Dũng|Nam|04/01/2004|Nghệ An
+240672|Hoàng Đức Trang|Nam|24/12/2005|Bà Rịa - Vũng Tàu
+240673|Lý Khanh Việt|Nữ|17/03/2004|An Giang
+240674|Bùi Quốc Đạt|Nam|04/03/2006|TP. Hồ Chí Minh
+240675|Đỗ Thu Bắc|Nữ|10/11/2004|Bình Dương
+240676|Phạm Bảo Phúc|Nam|16/06/2005|Cần Thơ
+240677|Trần Quốc Quân|Nam|03/04/2005|Lâm Đồng
+240678|Huỳnh Ánh Tâm|Nữ|10/12/2006|Cần Thơ
+240679|Ngô Ngọc Linh|Nữ|06/01/2005|Bắc Ninh
+240680|Hồ Bảo Sơn|Nam|14/05/2005|Cần Thơ
+240681|Lý Mai Mai|Nữ|15/06/2005|Lâm Đồng
+240682|Lê Anh Quan|Nam|03/05/2004|Đồng Nai
+240683|Hoàng Bảo Vũ|Nam|21/02/2006|Đà Nẵng
+240684|Dương Thành Quỳnh|Nam|01/10/2006|Nghệ An
+240685|Lý Văn Phong|Nam|09/09/2006|Lâm Đồng
+240686|Huỳnh Khánh Giang|Nam|25/10/2006|Bình Định
+240687|Võ Thành Nam|Nam|03/07/2005|Khánh Hòa
+240688|Đỗ Đức Việt|Nam|26/10/2006|An Giang
+240689|Võ Minh Dương|Nam|19/10/2006|Cần Thơ
+240690|Huỳnh Thị Giang|Nữ|25/08/2004|Đà Nẵng
+240691|Huỳnh Thanh Ánh|Nữ|22/04/2006|Thanh Hóa
+240692|Võ Mai Vũ|Nữ|02/01/2006|Quảng Ninh
+240693|Hồ Thành Quỳnh|Nam|27/05/2006|Bình Dương
+240694|Vũ Anh Khánh|Nam|12/10/2006|Đà Nẵng
+240695|Vũ Thanh Nghĩa|Nữ|13/06/2005|Lâm Đồng
+240696|Lý Ánh An|Nữ|17/03/2005|An Giang
+240697|Trần Thành Sơn|Nam|09/04/2004|An Giang
+240698|Huỳnh Đạt Thảo|Nam|27/02/2006|Bắc Ninh
+240699|Ngô Ngọc Thịnh|Nữ|04/08/2006|Lâm Đồng
+240700|Phạm Ánh Dung|Nữ|21/07/2004|Bắc Ninh
+240701|Lê Đạt Phúc|Nam|06/03/2006|Khánh Hòa
+240702|Lý Đạt Dũng|Nam|02/03/2005|An Giang
+240703|Bùi Ánh Quỳnh|Nữ|01/12/2006|Bình Định
+240704|Phạm Hữu Quan|Nam|16/08/2004|Bắc Ninh
+240705|Bùi Hải Tú|Nữ|19/03/2006|Khánh Hòa
+240706|Lê Kim Tân|Nữ|11/08/2006|Đà Nẵng
+240707|Vũ Khánh Châu|Nam|04/01/2004|Khánh Hòa
+240708|Dương Hải Quan|Nữ|04/03/2005|TP. Hồ Chí Minh
+240709|Trần Hữu Tâm|Nam|05/10/2006|Hà Nội
+240710|Đặng Như Huy|Nữ|28/01/2006|Khánh Hòa
+240711|Phạm Mai Tú|Nữ|25/07/2005|Hải Phòng
+240712|Lê Phương Minh|Nữ|25/04/2004|Bình Định
+240713|Hoàng Thanh An|Nữ|23/12/2004|Khánh Hòa
+240714|Đặng Văn Khánh|Nam|21/04/2006|Quảng Ninh
+240715|Huỳnh Bích Dũng|Nữ|14/11/2006|Bình Dương
+240716|Dương Thu Linh|Nữ|19/06/2006|Bình Dương
+240717|Ngô Thanh Lan|Nữ|18/09/2005|An Giang
+240718|Đặng Thu Minh|Nữ|09/05/2006|Thanh Hóa
+240719|Hồ Hải Việt|Nữ|28/11/2004|Bắc Ninh
+240720|Ngô Kim Dung|Nữ|04/04/2006|Nghệ An
+240721|Ngô Thu Quân|Nữ|23/11/2006|TP. Hồ Chí Minh
+240722|Vũ Anh An|Nam|26/02/2004|Lâm Đồng
+240723|Trần Bích Hà|Nữ|08/06/2004|TP. Hồ Chí Minh
+240724|Lý Như Quân|Nữ|21/09/2005|TP. Hồ Chí Minh
+240725|Đỗ Hữu Long|Nam|01/04/2006|Khánh Hòa
+240726|Phạm Thị Tú|Nữ|20/09/2006|Bắc Ninh
+240727|Đỗ Văn Huy|Nam|08/11/2004|An Giang
+240728|Hoàng Khánh Hương|Nam|22/07/2005|Bà Rịa - Vũng Tàu
+240729|Hồ Bảo Bắc|Nam|03/09/2005|Đồng Nai
+240730|Huỳnh Phương Giang|Nữ|20/04/2005|Nghệ An
+240731|Hoàng Minh Lan|Nam|17/02/2006|Đà Nẵng
+240732|Huỳnh Bích Uỳnh|Nữ|17/05/2006|Bình Dương
+240733|Vũ Ánh Minh|Nữ|25/04/2005|Tiền Giang
+240734|Lý Ánh Vinh|Nữ|01/08/2004|Bình Dương
+240735|Vũ Anh Tú|Nam|08/11/2006|Bắc Ninh
+240736|Vũ Ngọc Nghĩa|Nữ|18/01/2006|Bình Dương
+240737|Hoàng Hoàng Khôi|Nam|22/12/2005|Đà Nẵng
+240738|Võ Duy Hương|Nam|07/10/2005|An Giang
+240739|Võ Bảo Đạt|Nam|08/12/2004|Bình Dương
+240740|Phạm Đức Vân|Nam|08/10/2005|Cần Thơ
+240741|Trần Hoàng Tân|Nam|22/08/2006|Hà Nội
+240742|Dương Hữu Huy|Nam|20/06/2005|Bình Dương
+240743|Lê Thu Hải|Nữ|13/04/2006|Cần Thơ
+240744|Đặng Khánh Minh|Nam|18/01/2006|Thanh Hóa
+240745|Dương Khanh Tuấn|Nữ|06/08/2004|Khánh Hòa
+240746|Huỳnh Kim An|Nữ|01/11/2004|Nghệ An
+240747|Huỳnh Duy Quân|Nam|28/05/2004|Đồng Nai
+240748|Phạm Phương Minh|Nữ|20/06/2005|An Giang
+240749|Vũ Thanh Lan|Nữ|23/06/2005|Nghệ An
+240750|Võ Hải Phú|Nữ|05/10/2006|Bắc Ninh
+240751|Hồ Quốc Uỳnh|Nam|08/09/2005|Nghệ An
+240752|Lê Bảo Dũng|Nam|16/01/2004|Thừa Thiên Huế
+240753|Lê Khanh Nghĩa|Nữ|18/12/2005|Lâm Đồng
+240754|Hoàng Thu Việt|Nữ|19/01/2005|Hải Phòng
+240755|Nguyễn Đức Uyên|Nam|09/08/2006|Hải Phòng
+240756|Hồ Ngọc Hà|Nữ|12/06/2006|Đồng Nai
+240757|Huỳnh Thị Lan|Nữ|04/06/2006|Bà Rịa - Vũng Tàu
+240758|Ngô Quốc Hương|Nam|11/11/2006|Lâm Đồng
+240759|Lý Bích Khánh|Nữ|20/05/2005|Cần Thơ
+240760|Đỗ Duy Lan|Nam|21/10/2006|Nghệ An
+240761|Trần Minh Hùng|Nam|08/06/2005|Bình Định
+240762|Bùi Khanh Khôi|Nữ|09/08/2005|Khánh Hòa
+240763|Vũ Hải Dương|Nữ|28/01/2004|Bắc Ninh
+240764|Hồ Kim Trang|Nữ|03/04/2004|Nghệ An
+240765|Trần Hoàng Vũ|Nam|16/09/2004|Hà Nội
+240766|Đặng Bích Cường|Nữ|09/10/2004|Đà Nẵng
+240767|Hoàng Thanh Gia|Nữ|24/05/2005|Cần Thơ
+240768|Đặng Minh Anh|Nam|02/11/2005|Quảng Ninh
+240769|Võ Thu Hải|Nữ|18/08/2004|Đồng Nai
+240770|Bùi Đạt Mai|Nam|21/12/2006|Thừa Thiên Huế
+240771|Lý Ngọc Minh|Nữ|18/04/2004|Tiền Giang
+240772|Huỳnh Như Hà|Nữ|05/05/2004|Hà Nội
+240773|Huỳnh Quốc Minh|Nam|18/01/2006|Lâm Đồng
+240774|Hoàng Thị Tuấn|Nữ|14/05/2006|Bắc Ninh
+240775|Đặng Duy Đạt|Nam|14/09/2005|Nghệ An
+240776|Lê Bảo Trang|Nam|21/07/2005|Bắc Ninh
+240777|Trần Như Quỳnh|Nữ|08/09/2006|Bình Dương
+240778|Đỗ Kim Ngọc|Nữ|26/05/2005|Bà Rịa - Vũng Tàu
+240779|Lê Minh Hạnh|Nam|04/11/2005|Tiền Giang
+240780|Hồ Ánh Mạnh|Nữ|07/06/2004|Cần Thơ
+240781|Đặng Văn Dương|Nam|04/05/2005|Cần Thơ
+240782|Hồ Thị Giang|Nữ|03/03/2004|Lâm Đồng
+240783|Huỳnh Khánh Hoa|Nam|26/08/2005|Tiền Giang
+240784|Huỳnh Hoàng Vân|Nam|25/03/2004|Bình Dương
+240785|Trần Thu Minh|Nữ|06/04/2005|Nghệ An
+240786|Trần Bảo Gia|Nam|13/08/2004|TP. Hồ Chí Minh
+240787|Võ Bảo Tuấn|Nam|04/09/2006|Bà Rịa - Vũng Tàu
+240788|Vũ Khanh Hoa|Nữ|11/03/2006|TP. Hồ Chí Minh
+240789|Hoàng Hữu Quỳnh|Nam|10/04/2005|TP. Hồ Chí Minh
+240790|Trần Đức Quỳnh|Nam|14/06/2004|An Giang
+240791|Bùi Bích Khôi|Nữ|26/04/2004|TP. Hồ Chí Minh
+240792|Hồ Ánh Dũng|Nữ|12/02/2004|An Giang
+240793|Trần Khanh Quân|Nữ|11/11/2004|TP. Hồ Chí Minh
+240794|Đỗ Hải Thành|Nữ|18/02/2004|Lâm Đồng
+240795|Huỳnh Thành Tú|Nam|21/06/2005|Bà Rịa - Vũng Tàu
+240796|Hồ Khánh Hương|Nam|24/03/2005|TP. Hồ Chí Minh
+240797|Hồ Mai Phong|Nữ|10/09/2006|Lâm Đồng
+240798|Bùi Minh Ngọc|Nam|12/06/2006|Tiền Giang
+240799|Dương Ánh Yến|Nữ|28/09/2004|Đà Nẵng
+240800|Võ Quốc Uyên|Nam|09/09/2005|Tiền Giang
+240801|Ngô Anh Nam|Nam|13/12/2004|Hà Nội
+240802|Ngô Ánh Gia|Nữ|11/12/2004|Đồng Nai
+240803|Phạm Thu Tân|Nữ|16/09/2004|Bình Định
+240804|Vũ Khanh Hoàng|Nữ|04/02/2006|Đà Nẵng
+240805|Dương Minh Dương|Nam|28/01/2004|Hải Phòng
+240806|Phạm Bích Ánh|Nữ|19/11/2005|Lâm Đồng
+240807|Nguyễn Ngọc Giang|Nữ|20/12/2004|Hà Nội
+240808|Đỗ Hữu Vũ|Nam|27/02/2005|TP. Hồ Chí Minh
+240809|Đặng Kim Vũ|Nữ|14/06/2006|TP. Hồ Chí Minh
+240810|Đặng Thị Thịnh|Nữ|03/05/2004|Bà Rịa - Vũng Tàu
+240811|Trần Bảo Giang|Nam|18/07/2004|Bà Rịa - Vũng Tàu
+240812|Bùi Anh Dương|Nam|18/12/2006|Thừa Thiên Huế
+240813|Ngô Anh Phú|Nam|12/11/2005|Thừa Thiên Huế
+240814|Lê Minh Phong|Nam|13/09/2005|An Giang
+240815|Lý Ngọc Xuân|Nữ|11/09/2005|Thanh Hóa
+240816|Ngô Khanh Linh|Nữ|27/12/2005|Bắc Ninh
+240817|Vũ Thành Trang|Nam|09/06/2005|Tiền Giang
+240818|Nguyễn Kim Ánh|Nữ|10/10/2004|Khánh Hòa
+240819|Lý Quốc An|Nam|10/04/2004|Quảng Ninh
+240820|Ngô Bảo Uyên|Nam|09/09/2006|Đồng Nai
+240821|Trần Văn Mai|Nam|12/03/2004|Bình Dương
+240822|Lý Ánh Gia|Nữ|08/05/2005|Đà Nẵng
+240823|Bùi Thanh Thịnh|Nữ|03/12/2005|Lâm Đồng
+240824|Võ Bảo Thành|Nam|19/02/2006|Bình Định
+240825|Hồ Đạt Khánh|Nam|03/01/2005|Thanh Hóa
+240826|Vũ Bích Vinh|Nữ|25/04/2006|Hà Nội
+240827|Nguyễn Phương Nghĩa|Nữ|02/06/2006|Cần Thơ
+240828|Đặng Kim Giang|Nữ|05/01/2006|Nghệ An
+240829|Ngô Ánh Phú|Nữ|17/02/2004|Thừa Thiên Huế
+240830|Ngô Như Dũng|Nữ|05/06/2004|Lâm Đồng
+240831|Đặng Khánh Hà|Nam|03/07/2006|Thừa Thiên Huế
+240832|Ngô Minh Minh|Nam|18/04/2005|Nghệ An
+240833|Đặng Đạt Trang|Nam|17/04/2004|Đà Nẵng
+240834|Ngô Như Hoàng|Nữ|22/10/2004|Hải Phòng
+240835|Vũ Ngọc Hương|Nữ|07/06/2005|Hà Nội
+240836|Lê Ngọc Quân|Nữ|27/08/2006|Cần Thơ
+240837|Nguyễn Thanh Đạt|Nữ|22/06/2004|Đà Nẵng
+240838|Hồ Văn Gia|Nam|20/03/2005|Hà Nội
+240839|Hồ Bích Hoa|Nữ|15/08/2004|Quảng Ninh
+240840|Hồ Thành Đức|Nam|07/09/2006|Bình Dương
+240841|Bùi Kim Dũng|Nữ|23/12/2006|Hà Nội
+240842|Bùi Khanh Nghĩa|Nữ|02/05/2004|TP. Hồ Chí Minh
+240843|Phạm Kim Quân|Nữ|09/01/2005|Hà Nội
+240844|Vũ Anh Hải|Nam|22/11/2005|Hải Phòng
+240845|Hoàng Anh Khánh|Nam|08/07/2006|Hải Phòng
+240846|Võ Ánh Ngọc|Nữ|03/03/2004|Khánh Hòa
+240847|Đặng Kim Anh|Nữ|02/04/2006|Bình Định
+240848|Võ Như Trang|Nữ|06/01/2005|Thanh Hóa
+240849|Đỗ Phương Gia|Nữ|17/05/2004|Bình Dương
+240850|Lý Thị Phong|Nữ|09/04/2004|Quảng Ninh
+240851|Đỗ Hải Bảo|Nữ|24/07/2006|Bắc Ninh
+240852|Phạm Ánh Dũng|Nữ|14/05/2006|Quảng Ninh
+240853|Đặng Hải Đức|Nữ|21/03/2006|Đồng Nai
+240854|Dương Minh Hoa|Nam|23/12/2006|Cần Thơ
+240855|Lý Hải Sơn|Nữ|19/03/2005|Đà Nẵng
+240856|Lê Duy Vân|Nam|05/12/2004|Quảng Ninh
+240857|Vũ Phương Long|Nữ|24/11/2006|Bình Dương
+240858|Ngô Đức Cường|Nam|05/03/2004|Bình Dương
+240859|Bùi Đức Giang|Nam|22/01/2005|Đà Nẵng
+240860|Lê Thu Việt|Nữ|20/08/2006|Thanh Hóa
+240861|Dương Khánh Mạnh|Nam|16/03/2004|Bà Rịa - Vũng Tàu
+240862|Nguyễn Khánh Trí|Nam|01/05/2005|Bắc Ninh
+240863|Ngô Đức Bắc|Nam|06/08/2006|Lâm Đồng
+240864|Dương Mai Vũ|Nữ|08/07/2005|TP. Hồ Chí Minh
+240865|Hồ Ngọc Khôi|Nữ|20/12/2006|Đồng Nai
+240866|Đặng Hoàng Long|Nam|15/01/2004|Khánh Hòa
+240867|Hồ Thị Phong|Nữ|13/09/2006|TP. Hồ Chí Minh
+240868|Hoàng Hữu Khôi|Nam|10/05/2005|An Giang
+240869|Hoàng Ánh Yến|Nữ|02/12/2006|Cần Thơ
+240870|Dương Khanh Long|Nữ|03/12/2006|Hải Phòng
+240871|Ngô Đạt Xuân|Nam|23/09/2004|Nghệ An
+240872|Huỳnh Mai Anh|Nữ|06/08/2006|Bà Rịa - Vũng Tàu
+240873|Trần Phương Hoàng|Nữ|23/11/2006|An Giang
+240874|Trần Hoàng Thảo|Nam|15/11/2005|Đà Nẵng
+240875|Hồ Thu Quân|Nữ|06/07/2006|Nghệ An
+240876|Ngô Minh Yến|Nam|11/10/2006|Cần Thơ
+240877|Dương Minh Dương|Nam|25/12/2004|Thừa Thiên Huế
+240878|Hoàng Kim Tuấn|Nữ|15/05/2006|An Giang
+240879|Lý Minh Đạt|Nam|01/10/2005|Hà Nội
+240880|Võ Mai Ngọc|Nữ|26/01/2006|Lâm Đồng
+240881|Phạm Đạt Tâm|Nam|16/08/2005|Tiền Giang
+240882|Bùi Đạt An|Nam|08/09/2005|Đồng Nai
+240883|Nguyễn Minh Dũng|Nam|02/11/2005|TP. Hồ Chí Minh
+240884|Dương Văn Tâm|Nam|19/10/2005|Quảng Ninh
+240885|Nguyễn Hoàng Lan|Nam|06/03/2006|Bình Định
+240886|Võ Bảo Phúc|Nam|12/01/2004|Bình Định
+240887|Huỳnh Như Uyên|Nữ|03/07/2006|Đà Nẵng
+240888|Võ Hải Chi|Nữ|23/05/2005|Khánh Hòa
+240889|Đặng Thanh Thành|Nữ|07/10/2004|Hải Phòng
+240890|Võ Bảo Thành|Nam|20/12/2005|Thừa Thiên Huế
+240891|Hoàng Thu Phú|Nữ|20/06/2004|Lâm Đồng
+240892|Võ Hải Vũ|Nữ|20/04/2006|Bình Định
+240893|Nguyễn Hoàng Anh|Nam|15/11/2004|Bà Rịa - Vũng Tàu
+240894|Vũ Thị Hùng|Nữ|12/09/2006|Bà Rịa - Vũng Tàu
+240895|Đỗ Đức Thành|Nam|10/05/2004|Bình Định
+240896|Đặng Thu Hoàng|Nữ|25/01/2004|Quảng Ninh
+240897|Vũ Kim Phú|Nữ|20/01/2004|Bà Rịa - Vũng Tàu
+240898|Dương Ngọc Tân|Nữ|16/08/2004|Cần Thơ
+240899|Lê Khanh Mai|Nữ|28/09/2005|Tiền Giang
+240900|Lý Kim Bình|Nữ|27/09/2005|Quảng Ninh
+240901|Phạm Đạt Tân|Nam|11/06/2004|Cần Thơ
+240902|Dương Thị Hùng|Nữ|13/11/2006|An Giang
+240903|Lê Ánh Chi|Nữ|28/05/2006|Quảng Ninh
+240904|Hoàng Khánh Bảo|Nam|16/04/2005|Tiền Giang
+240905|Phạm Thu Hoa|Nữ|06/02/2005|TP. Hồ Chí Minh
+240906|Lý Hoàng Long|Nam|17/01/2005|Khánh Hòa
+240907|Phạm Duy Minh|Nam|24/09/2005|Quảng Ninh
+240908|Ngô Hoàng Uyên|Nam|17/11/2004|Bà Rịa - Vũng Tàu
+240909|Võ Khánh Thảo|Nam|28/09/2004|Hà Nội
+240910|Lý Thị Tân|Nữ|28/10/2004|Quảng Ninh
+240911|Lý Thị Cường|Nữ|17/11/2006|Bình Định
+240912|Bùi Quốc Quỳnh|Nam|07/06/2004|Bà Rịa - Vũng Tàu
+240913|Hoàng Thu Hoàng|Nữ|25/08/2006|Hải Phòng
+240914|Lê Hải Hải|Nữ|04/01/2006|Đồng Nai
+240915|Phạm Thành Hương|Nam|18/06/2005|Cần Thơ
+240916|Bùi Thanh Dung|Nữ|03/05/2006|Quảng Ninh
+240917|Nguyễn Hải Anh|Nữ|16/11/2004|Hải Phòng
+240918|Nguyễn Bích Linh|Nữ|13/03/2006|Tiền Giang
+240919|Hoàng Ngọc Uyên|Nữ|07/12/2006|Đồng Nai
+240920|Lý Hữu Phú|Nam|05/02/2006|Tiền Giang
+240921|Võ Quốc Tân|Nam|21/12/2005|Lâm Đồng
+240922|Phạm Minh Vinh|Nam|20/05/2005|Nghệ An
+240923|Hồ Anh Hùng|Nam|26/06/2005|Lâm Đồng
+240924|Trần Hữu Chi|Nam|12/08/2005|An Giang
+240925|Ngô Ngọc Quan|Nữ|19/03/2006|Hải Phòng
+240926|Dương Kim Tú|Nữ|04/06/2006|Đà Nẵng
+240927|Đặng Mai Khôi|Nữ|19/07/2004|Bắc Ninh
+240928|Võ Khánh Bắc|Nam|11/04/2006|Thừa Thiên Huế
+240929|Bùi Ngọc Ngọc|Nữ|23/04/2004|Đà Nẵng
+240930|Trần Ánh Quan|Nữ|15/06/2006|Hải Phòng
+240931|Lê Phương Khôi|Nữ|03/10/2004|Nghệ An
+240932|Võ Khanh Tâm|Nữ|02/02/2004|Cần Thơ
+240933|Ngô Minh Tâm|Nam|05/08/2006|Bình Định
+240934|Bùi Ánh Long|Nữ|07/04/2006|Quảng Ninh
+240935|Bùi Khanh Hoa|Nữ|14/12/2005|Đà Nẵng
+240936|Bùi Thành Khôi|Nam|28/03/2005|TP. Hồ Chí Minh
+240937|Lý Thu Bình|Nữ|01/12/2006|Thanh Hóa
+240938|Dương Quốc Vinh|Nam|01/04/2005|Nghệ An
+240939|Hồ Như Khôi|Nữ|13/07/2006|Bà Rịa - Vũng Tàu
+240940|Võ Minh Đạt|Nam|18/07/2005|Thừa Thiên Huế
+240941|Hoàng Anh Châu|Nam|05/01/2004|Hà Nội
+240942|Hồ Hữu Tâm|Nam|14/03/2004|Cần Thơ
+240943|Dương Mai Xuân|Nữ|26/12/2006|Thừa Thiên Huế
+240944|Võ Thành Linh|Nam|18/08/2005|Thanh Hóa
+240945|Lê Khánh Quan|Nam|01/10/2005|Bắc Ninh
+240946|Vũ Thu Phú|Nữ|12/01/2004|Lâm Đồng
+240947|Trần Ánh Minh|Nữ|23/02/2004|Khánh Hòa
+240948|Võ Thu Bảo|Nữ|17/10/2004|Bắc Ninh
+240949|Đỗ Kim Tâm|Nữ|22/02/2006|Đồng Nai
+240950|Bùi Thị Xuân|Nữ|11/09/2004|Lâm Đồng
+240951|Đặng Mai Phú|Nữ|24/06/2005|Thanh Hóa
+240952|Hoàng Hải Ánh|Nữ|23/10/2006|Bình Định
+240953|Nguyễn Khanh Minh|Nữ|19/03/2006|TP. Hồ Chí Minh
+240954|Ngô Kim Quân|Nữ|01/05/2005|Đà Nẵng
+240955|Đặng Hoàng Việt|Nam|26/05/2005|Cần Thơ
+240956|Hoàng Phương An|Nữ|24/02/2006|An Giang
+240957|Đỗ Hữu Huy|Nam|26/03/2005|Bắc Ninh
+240958|Lê Thu Vinh|Nữ|02/06/2004|Cần Thơ
+240959|Dương Hữu Trí|Nam|14/07/2004|Tiền Giang
+240960|Phạm Đạt Thịnh|Nam|27/06/2004|Bình Dương
+240961|Nguyễn Minh Mai|Nam|13/08/2005|Lâm Đồng
+240962|Vũ Anh Thảo|Nam|13/08/2005|Cần Thơ
+240963|Nguyễn Phương Uỳnh|Nữ|15/07/2006|Quảng Ninh
+240964|Trần Thành Quỳnh|Nam|12/07/2006|Bình Dương
+240965|Hoàng Phương Uỳnh|Nữ|04/05/2006|Nghệ An
+240966|Ngô Khanh Trang|Nữ|08/12/2006|Bà Rịa - Vũng Tàu
+240967|Đỗ Kim Dương|Nữ|11/09/2004|Hà Nội
+240968|Nguyễn Khánh Cường|Nam|17/02/2006|Tiền Giang
+240969|Phạm Kim Hạnh|Nữ|09/04/2004|Hà Nội
+240970|Nguyễn Đạt Tâm|Nam|27/04/2006|Hải Phòng
+240971|Trần Đạt Châu|Nam|13/11/2006|An Giang
+240972|Hồ Minh Hà|Nam|10/08/2006|Đà Nẵng
+240973|Lý Phương Tuấn|Nữ|14/12/2006|Quảng Ninh
+240974|Lê Bích Hải|Nữ|25/01/2005|Nghệ An
+240975|Nguyễn Phương Uyên|Nữ|09/03/2005|Đà Nẵng
+240976|Lý Thanh Quân|Nữ|13/03/2006|Lâm Đồng
+240977|Lê Thành Tuấn|Nam|14/04/2006|Hải Phòng
+240978|Hồ Phương Cường|Nữ|02/02/2004|Bình Dương
+240979|Nguyễn Mai Dũng|Nữ|21/11/2004|TP. Hồ Chí Minh
+240980|Hoàng Hải Thành|Nữ|11/07/2006|Hà Nội
+240981|Võ Như Khôi|Nữ|28/12/2004|Đồng Nai
+240982|Nguyễn Khánh Thành|Nam|27/08/2004|Đồng Nai
+240983|Huỳnh Khanh Hoa|Nữ|13/01/2006|Đà Nẵng
+240984|Đặng Ngọc Bảo|Nữ|27/08/2005|Bà Rịa - Vũng Tàu
+240985|Đặng Văn Khánh|Nam|22/04/2005|Nghệ An
+240986|Đỗ Bảo Hương|Nam|16/02/2006|Tiền Giang
+240987|Lê Văn Đạt|Nam|01/12/2006|Bắc Ninh
+240988|Vũ Bích Tú|Nữ|18/11/2005|Lâm Đồng
+240989|Nguyễn Thị Hùng|Nữ|02/06/2006|TP. Hồ Chí Minh
+240990|Trần Thanh Uỳnh|Nữ|21/11/2006|Tiền Giang
+240991|Hồ Đạt Giang|Nam|03/01/2006|Cần Thơ
+240992|Đỗ Thị Minh|Nữ|20/01/2004|Cần Thơ
+240993|Lê Anh Bình|Nam|10/02/2005|An Giang
+240994|Dương Hoàng Chi|Nam|16/10/2006|Bắc Ninh
+240995|Ngô Đức Linh|Nam|11/12/2006|Nghệ An
+240996|Trần Khanh Phú|Nữ|18/03/2005|Bà Rịa - Vũng Tàu
+240997|Bùi Minh Hùng|Nam|03/02/2005|Cần Thơ
+240998|Lê Kim Huy|Nữ|18/03/2005|Bắc Ninh
+240999|Lê Hoàng Tú|Nam|28/11/2006|Nghệ An
+241000|Nguyễn Hữu Bảo|Nam|01/01/2004|Đà Nẵng
