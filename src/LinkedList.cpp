@@ -35,7 +35,7 @@ bool LinkedList::remove(const string& examID) {   // Xóa theo examID
     if (!head) return false;                      // Danh sách rỗng → không xóa
  
     // Trường hợp xoá node đầu 
-    if (head->data.examID == examID) {             // Kiểm tra Node đầu
+    if (head->data.getExamID() == examID) {             // Kiểm tra Node đầu
         Node* del = head;                          // Lưu Node cần xóa
         head = head->next;                         // Đưa head sang Node kế
 
@@ -51,7 +51,7 @@ bool LinkedList::remove(const string& examID) {   // Xóa theo examID
     Node* cur  = head->next;                      // Node đang xét
 
     while (cur) {                                 // Duyệt danh sách
-        if (cur->data.examID == examID) {         // Tìm thấy examID
+        if (cur->data.getExamID() == examID) {         // Tìm thấy examID
 
             prev->next = cur->next;               // Bỏ qua Node cur
 
@@ -74,7 +74,7 @@ Node* LinkedList::findByID(const string& examID) const { // Tìm theo examID
     Node* cur = head;                                     // Bắt đầu từ đầu
 
     while (cur) {                                         // Duyệt danh sách
-        if (cur->data.examID == examID) return cur;       // Tìm thấy → trả về Node
+        if (cur->data.getExamID() == examID) return cur;       // Tìm thấy → trả về Node
         cur = cur->next;                                  // Sang Node kế tiếp
     }
 
@@ -87,7 +87,7 @@ void LinkedList::findByName(const string& keyword, vector<Candidate>& results) c
 
     while (cur) {                                                                // Duyệt danh sách
         // Tìm trong fullName (không phân biệt hoa/thường ASCII) 
-        string fn = cur->data.fullName;                                         // Lấy tên
+        string fn = cur->data.getFullName();                                         // Lấy tên
         string kw = keyword;                                                    // Lấy từ khóa
 
         for (char& ch : fn) if (ch>='A'&&ch<='Z') ch+=32;                      // Đổi tên → chữ thường
