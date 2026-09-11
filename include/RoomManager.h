@@ -1,27 +1,29 @@
 #pragma once
-
-#include <string>
+#include "Room.h"
+#include "HashTable.h"
 #include <vector>
-#include "Candidate.h"
+#include <iostream>
 
-/**
- * @brief Lớp hỗ trợ đọc/ghi dữ liệu danh sách thí sinh từ/vào file text.
- * 
- * Định dạng dòng dữ liệu: fullName|gender|examID|birthDate|hometown
- * Ví dụ: Nguyen Van An|Nam|TS001|01/01/2005|Nghe An
- */
-class FileManager {
-public:
-    // Đọc danh sách thí sinh từ file
-    static std::vector<Candidate> loadFromFile(const std::string& filename = "candidates.txt");
-
-    // Ghi danh sách thí sinh vào file (trả về true nếu thành công)
-    static bool saveToFile(const std::vector<Candidate>& candidates, const std::string& filename = "candidates.txt");
-
+class RoomManager {
 private:
-    // Tách chuỗi theo ký tự phân cách delimiter
-    static std::vector<std::string> split(const std::string& line, char delimiter);
+    std::vector<Room> rooms; // danh sách các phòng thi được quản lý
 
-    // Cắt bỏ khoảng trắng ở hai đầu chuỗi
-    static std::string trim(const std::string& text);
+public:
+    RoomManager() = default;
+
+    // phân bố thí sinh vào n phòng bằng Round-Robin (Greedy)
+    bool distributeCandidates(const HashTable& hashTable, int numRooms);
+
+    // danh sách các phòng
+    void displayRooms() const;
+
+    // tính toán điểm xung đột 
+    int calculateConflictScore() const;
+
+    // Báo cáo chi tiết hiệu năng & mức độ phân bổ
+    void printPerformanceReport(double executionTimeMs) const;
+
+    const std::vector<Room>& getRooms() const { return rooms; }
 };
+
+

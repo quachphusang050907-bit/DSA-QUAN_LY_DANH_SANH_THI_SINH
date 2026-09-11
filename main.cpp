@@ -1,5 +1,7 @@
+
 #include <iostream>
 #include <limits>
+#include <windows.h>
 
 #include "include/CandidateManager.h"
 
@@ -28,6 +30,9 @@ void displayMenu() {
 // MAIN
 // ======================================================
 int main() {
+    
+    SetConsoleOutputCP(CP_UTF8);   // console xuất UTF-8
+    SetConsoleCP(CP_UTF8);
 
     // Tạo đối tượng quản lý chính
     CandidateManager manager;
@@ -79,119 +84,20 @@ int main() {
 
             break;
 
-// ==================================================
-// 2. TÌM KIẾM THÍ SINH
-// ==================================================
-case 2:
-{
-    int searchChoice;
 
-    do
-    {
-        cout << "\n";
-        cout << "========== SEARCH CANDIDATE ==========\n";
-        cout << "1. Search by Name\n";
-        cout << "2. Search by Exam ID\n";
-        cout << "0. Back\n";
-        cout << "======================================\n";
-        cout << "Enter your choice: ";
+        // ==================================================
+        // 2. TÌM KIẾM THÍ SINH
+        // ==================================================
+        case 2:
 
-        if (!(cin >> searchChoice))
-        {
-            cout << "Invalid input! Please enter a number.\n";
+            cout << "\n";
+            cout << "========== SEARCH CANDIDATE ==========\n";
 
-            cin.clear();
-            cin.ignore(
-                numeric_limits<streamsize>::max(),
-                '\n'
-            );
+            manager.searchCandidate();
 
-            continue;
-        }
+            break;
 
-        cin.ignore(
-            numeric_limits<streamsize>::max(),
-            '\n'
-        );
 
-        // ------------------------------------------
-        // SEARCH BY NAME
-        // ------------------------------------------
-        if (searchChoice == 1)
-        {
-            string keyword;
-
-            cout << "\nEnter candidate name: ";
-            getline(cin, keyword);
-
-            vector<Candidate> results =
-                manager.searchCandidatesByName(keyword);
-
-            if (results.empty())
-            {
-                cout << "No candidate found.\n";
-            }
-            else
-            {
-                cout << "\n========== SEARCH RESULTS ==========\n";
-
-                Candidate::printHeader();
-                Candidate::printSeparator();
-
-                for (const Candidate& candidate : results)
-                {
-                    candidate.display();
-                }
-            }
-        }
-
-        // ------------------------------------------
-        // SEARCH BY EXAM ID
-        // ------------------------------------------
-        else if (searchChoice == 2)
-        {
-            string examID;
-
-            cout << "\nEnter exam ID: ";
-            getline(cin, examID);
-
-            Candidate* candidate =
-                manager.searchCandidate(examID);
-
-            if (candidate == nullptr)
-            {
-                cout << "No candidate found with this Exam ID.\n";
-            }
-            else
-            {
-                cout << "\n========== SEARCH RESULT ==========\n";
-
-                Candidate::printHeader();
-                Candidate::printSeparator();
-
-                candidate->display();
-            }
-        }
-
-        // ------------------------------------------
-        // BACK
-        // ------------------------------------------
-        else if (searchChoice == 0)
-        {
-            cout << "Returning to main menu...\n";
-        }
-
-        else
-        {
-            cout << "Invalid choice! "
-                 << "Please choose from 0 to 2.\n";
-        }
-
-    } while (searchChoice != 0);
-
-    break;
-}
-            
         // ==================================================
         // 3. HIỂN THỊ DANH SÁCH SẮP XẾP
         // ==================================================

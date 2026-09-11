@@ -5,18 +5,43 @@
 
 using namespace std;
 
-string FileManager::trim(const string& text)
+
+// ============================================================
+// HÀM TRIM
+// ============================================================
+string FileManager::trim(
+    const string& text
+)
 {
-    size_t start = text.find_first_not_of(" \t\r\n");
+    size_t start =
+        text.find_first_not_of(
+            " \t\r\n"
+        );
+
     if (start == string::npos)
     {
         return "";
     }
-    size_t end = text.find_last_not_of(" \t\r\n");
-    return text.substr(start, end - start + 1);
+
+    size_t end =
+        text.find_last_not_of(
+            " \t\r\n"
+        );
+
+    return text.substr(
+        start,
+        end - start + 1
+    );
 }
 
-vector<string> FileManager::split(const string& line, char delimiter)
+
+// ============================================================
+// HÀM SPLIT
+// ============================================================
+vector<string> FileManager::split(
+    const string& line,
+    char delimiter
+)
 {
     vector<string> parts;
     string currentPart;
@@ -25,7 +50,9 @@ vector<string> FileManager::split(const string& line, char delimiter)
     {
         if (character == delimiter)
         {
-            parts.push_back(trim(currentPart));
+            parts.push_back(
+                trim(currentPart)
+            );
             currentPart.clear();
         }
         else
@@ -34,13 +61,31 @@ vector<string> FileManager::split(const string& line, char delimiter)
         }
     }
 
-    parts.push_back(trim(currentPart));
+    parts.push_back(
+        trim(currentPart)
+    );
+
     return parts;
 }
 
-vector<Candidate> FileManager::loadFromFile(const string& filename)
+
+// ============================================================
+// HÀM LOAD FROM FILE
+// ============================================================
+//
+//  Định dạng file thực tế:
+//  examID|fullName|gender|birthDate|hometown
+//
+//  Ví dụ:
+//  240001|Nguyễn Bảo Hải|Nam|08/04/2004|Hải Phòng
+// ============================================================
+
+vector<Candidate> FileManager::loadFromFile(
+    const string& filename
+)
 {
     vector<Candidate> candidates;
+
     ifstream inputFile(filename);
 
     if (!inputFile.is_open())
@@ -59,6 +104,7 @@ vector<Candidate> FileManager::loadFromFile(const string& filename)
 
         vector<string> parts = split(line, '|');
 
+        // Cần đúng 5 trường: examID|fullName|gender|birthDate|hometown
         if (parts.size() != 5)
         {
             continue;
@@ -66,10 +112,11 @@ vector<Candidate> FileManager::loadFromFile(const string& filename)
 
         Candidate candidate;
 
-        // Dùng Setter để lưu thông tin vào candidate
-        candidate.setFullName(parts[0]);
-        candidate.setGender(parts[1]);
-        candidate.setExamID(parts[2]);
+        // FIX: Dùng setter thay vì gán vào giá trị trả về của getter
+        // FIX: Thứ tự đúng theo file: examID|fullName|gender|birthDate|hometown
+        candidate.setExamID(parts[0]);
+        candidate.setFullName(parts[1]);
+        candidate.setGender(parts[2]);
         candidate.setBirthDate(parts[3]);
         candidate.setHometown(parts[4]);
 
@@ -77,10 +124,23 @@ vector<Candidate> FileManager::loadFromFile(const string& filename)
     }
 
     inputFile.close();
+
     return candidates;
 }
 
-bool FileManager::saveToFile(const vector<Candidate>& candidates, const string& filename)
+
+// ============================================================
+// HÀM SAVE TO FILE
+// ============================================================
+//
+//  Lưu theo đúng định dạng:
+//  examID|fullName|gender|birthDate|hometown
+// ============================================================
+
+bool FileManager::saveToFile(
+    const vector<Candidate>& candidates,
+    const string& filename
+)
 {
     ofstream outputFile(filename);
 
@@ -91,12 +151,13 @@ bool FileManager::saveToFile(const vector<Candidate>& candidates, const string& 
 
     for (const Candidate& candidate : candidates)
     {
+        // FIX: Thứ tự đúng: examID|fullName|gender|birthDate|hometown
         outputFile
+            << candidate.getExamID()
+            << "|"
             << candidate.getFullName()
             << "|"
             << candidate.getGender()
-            << "|"
-            << candidate.getExamID()
             << "|"
             << candidate.getBirthDate()
             << "|"
@@ -105,5 +166,6 @@ bool FileManager::saveToFile(const vector<Candidate>& candidates, const string& 
     }
 
     outputFile.close();
+
     return true;
 }

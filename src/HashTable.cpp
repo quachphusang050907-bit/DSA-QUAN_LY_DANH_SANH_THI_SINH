@@ -131,7 +131,7 @@ bool HashTable::remove(const string& examID) {
 //  khoa bam cua bang nay la CHU CAI DAU TEN, khong phai examID.
 // ============================================================================
 Candidate* HashTable::findByID(const string& examID) {
-    if (!idSet.count(examID)) return nullptr;      // O(1)
+    
     for (int i = 0; i < TABLE_SIZE; i++) {          // O(n/26) trung binh
         Node* found = buckets[i].findByID(examID);
         if (found) return &(found->data);
