@@ -14,7 +14,7 @@ using namespace chrono;
 // VALIDATION FUNCTIONS
 // ======================================================
 
-// FIX: Cho phép byte >= 0x80 (ký tự UTF-8 đa byte tiếng Việt như ễ, ắ, ữ...)
+// Hỗ trợ tiếng Việt có dấu (UTF-8 multi-byte: byte >= 0x80)
 bool isValidName(const string& text)
 {
     if (text.empty())
@@ -26,7 +26,7 @@ bool isValidName(const string& text)
     {
         if (c >= 0x80)
         {
-            // Byte thuộc chuỗi UTF-8 đa byte → coi là ký tự hợp lệ
+            // Byte thuộc chuỗi UTF-8 đa byte (ký tự tiếng Việt có dấu)
             hasLetter = true;
         }
         else if (isalpha(c))
@@ -42,20 +42,10 @@ bool isValidName(const string& text)
     return hasLetter;
 }
 
-// FIX: Tương tự, gender có thể là "Nữ" (ký tự UTF-8)
-bool isValidGender(const string& text)
+// Kiểm tra giới tính dạng số: Chỉ chấp nhận "0" hoặc "1"
+bool isValidGenderChoice(const string& text)
 {
-    if (text.empty())
-        return false;
-
-    for (unsigned char c : text)
-    {
-        if (c >= 0x80) continue;  // UTF-8 multi-byte → hợp lệ
-        if (!isalpha(c))
-            return false;
-    }
-
-    return true;
+    return (text == "0" || text == "1");
 }
 
 bool isValidExamID(const string& text)
@@ -78,55 +68,42 @@ bool isLeapYear(int year)
         (year % 4 == 0 && year % 100 != 0);
 }
 
-bool isValidBirthDate(const string& text)
+bool isValidBirthDate(string& text)
 {
-    if (text.length() != 10)
+    int day, month, year;
+    char slash1, slash2;
+
+    // Kiểm tra định dạng ngày/tháng/năm
+    stringstream ss(text);
+    if (!(ss >> day >> slash1 >> month >> slash2 >> year))
         return false;
 
-    if (text[2] != '/' || text[5] != '/')
+    // Phải đúng 2 dấu gạch chéo
+    if (slash1 != '/' || slash2 != '/')
         return false;
 
-    for (int i = 0; i < 10; i++)
-    {
-        if (i == 2 || i == 5)
-            continue;
-
-        if (!isdigit(static_cast<unsigned char>(text[i])))
-            return false;
-    }
-
-    int day =
-        (text[0] - '0') * 10 +
-        (text[1] - '0');
-
-    int month =
-        (text[3] - '0') * 10 +
-        (text[4] - '0');
-
-    int year =
-        (text[6] - '0') * 1000 +
-        (text[7] - '0') * 100 +
-        (text[8] - '0') * 10 +
-        (text[9] - '0');
-
-    if (year < 1900)
+    // Kiểm tra không còn ký tự thừa phía sau
+    string remaining;
+    if (ss >> remaining)
         return false;
 
-    if (month < 1 || month > 12)
+    // Kiểm tra giới hạn năm và tháng
+    if (year < 1900 || month < 1 || month > 12)
         return false;
 
-    int daysInMonth[] =
-    {
-        31, 28, 31, 30,
-        31, 30, 31, 31,
-        30, 31, 30, 31
-    };
+    // Số ngày tối đa trong từng tháng
+    int daysInMonth[] = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
 
     if (month == 2 && isLeapYear(year))
         daysInMonth[1] = 29;
 
     if (day < 1 || day > daysInMonth[month - 1])
         return false;
+
+    // Tự động chuẩn hóa về dạng 10 ký tự DD/MM/YYYY (ví dụ: 1/2/2000 -> 01/02/2000)
+    char buffer[11];
+    snprintf(buffer, sizeof(buffer), "%02d/%02d/%04d", day, month, year);
+    text = string(buffer);
 
     return true;
 }
@@ -187,21 +164,25 @@ bool CandidateManager::addCandidate()
     }
 
     // --------------------------------------------------
-    // GENDER
+    // GENDER (0: Nam, 1: Nu)
     // --------------------------------------------------
     while (true)
     {
-        cout << "Gender (Nam/Nu): ";
+        cout << "Gender (0: Nam, 1: Nu): ";
         getline(cin, input);
 
-        if (!isValidGender(input))
+        if (!isValidGenderChoice(input))
         {
-            cout << "Invalid gender! "
-                << "Only letters are allowed.\n";
+            cout << "Invalid choice! Please enter 0 for Nam or 1 for Nu.\n";
             continue;
         }
 
-        candidate.setGender(input);
+        // Lưu tên giới tính tương ứng dựa trên số người dùng chọn
+        if (input == "0")
+            candidate.setGender("Nam");
+        else
+            candidate.setGender("Nu");
+
         break;
     }
 

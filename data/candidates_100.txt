@@ -1,2 +1,3 @@
-240001|Nguyễn Bảo Hải|Nam|08/04/2004|Hải Phòng
 240005|Hoàng Hải Đức|Nữ|25/06/2004|Đà Nẵng
+240001|Nguyễn Bảo Hải|Nam|08/04/2004|Hải Phòng
+i32423|nguyễn Trần Trọng Nhân|Nu|01/02/2000|hcm
