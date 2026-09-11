@@ -152,7 +152,7 @@ int main() {
 
             cout << "\nSaving data...\n";
 
-            manager.saveData();
+            manager.saveData("data/candidates_100.txt");
 
             cout << "Data saved successfully.\n";
             cout << "Goodbye!\n";
