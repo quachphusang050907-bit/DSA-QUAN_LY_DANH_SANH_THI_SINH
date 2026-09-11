@@ -236,19 +236,19 @@ vector<Candidate> FileManager::loadFromFile(
 
         // Gán từng thông tin.
 
-        candidate.fullName =
+        candidate.getFullName() =
             parts[0];
 
-        candidate.gender =
+        candidate.getGender() =
             parts[1];
 
-        candidate.examID =
+        candidate.getExamID() =
             parts[2];
 
-        candidate.birthDate =
+        candidate.getBirthDate() =
             parts[3];
 
-        candidate.hometown =
+        candidate.getHometown() =
             parts[4];
 
 
@@ -320,15 +320,15 @@ bool FileManager::saveToFile(
         // fullName|gender|examID|birthDate|hometown
 
         outputFile
-            << candidate.fullName
+            << candidate.getFullName()
             << "|"
-            << candidate.gender
+            << candidate.getGender()
             << "|"
-            << candidate.examID
+            << candidate.getExamID()
             << "|"
-            << candidate.birthDate
+            << candidate.getBirthDate()
             << "|"
-            << candidate.hometown
+            << candidate.getHometown()
             << '\n';
     }
 

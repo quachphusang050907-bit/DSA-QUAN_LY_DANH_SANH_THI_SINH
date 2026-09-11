@@ -9,11 +9,11 @@ void runRoomModuleTests() {
 
     HashTable ht;
     // Giả lập thêm dữ liệu kiểm thử
-    ht.add({"240101", "Nguyễn Văn An", "Nam", "15/05/2005", "Hà Nội"});
-    ht.add({"240102", "Trần Thị Anh", "Nữ", "20/08/2005", "Đà Nẵng"});
-    ht.add({"240103", "Lê Hoàng Ánh", "Nam", "01/01/2005", "Hải Phòng"});
-    ht.add({"240104", "Nguyễn Văn Bình", "Nam", "10/10/2005", "Quảng Ninh"});
-    ht.add({"240105", "Phạm Quốc Bắc", "Nam", "12/12/2005", "Cần Thơ"});
+    ht.add(Candidate("240101", "Nguyễn Văn An", "Nam", "15/05/2005", "Hà Nội"));
+    ht.add(Candidate("240102", "Trần Thị Anh", "Nữ", "20/08/2005", "Đà Nẵng"));
+    ht.add(Candidate("240103", "Lê Hoàng Ánh", "Nam", "01/01/2005", "Hải Phòng"));
+    ht.add(Candidate("240104", "Nguyễn Văn Bình", "Nam", "10/10/2005", "Quảng Ninh"));
+    ht.add(Candidate("240105", "Phạm Quốc Bắc", "Nam", "12/12/2005", "Cần Thơ"));
 
     RoomManager roomMgr;
 
