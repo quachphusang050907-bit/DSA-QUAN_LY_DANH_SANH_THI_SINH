@@ -1,5 +1,6 @@
 #include "../include/HashTable.h"
 #include "../include/RoomManager.h"
+#include "../include/Candidate.h"
 #include <iostream>
 #include <chrono>
 #include <cassert>
@@ -9,11 +10,11 @@ void runRoomModuleTests() {
 
     HashTable ht;
     // Giả lập thêm dữ liệu kiểm thử
-    ht.add(Candidate("240101", "Nguyễn Văn An", "Nam", "15/05/2005", "Hà Nội"));
-    ht.add(Candidate("240102", "Trần Thị Anh", "Nữ", "20/08/2005", "Đà Nẵng"));
-    ht.add(Candidate("240103", "Lê Hoàng Ánh", "Nam", "01/01/2005", "Hải Phòng"));
-    ht.add(Candidate("240104", "Nguyễn Văn Bình", "Nam", "10/10/2005", "Quảng Ninh"));
-    ht.add(Candidate("240105", "Phạm Quốc Bắc", "Nam", "12/12/2005", "Cần Thơ"));
+    Candidate c1; c1.setExamID("240101"); c1.setFullName("Nguyễn Văn An"); ht.add(c1);
+    Candidate c2; c2.setExamID("240102"); c2.setFullName("Trần Thị Anh"); ht.add(c2);
+    Candidate c3; c3.setExamID("240103"); c3.setFullName("Lê Hoàng Ánh"); ht.add(c3);
+    Candidate c4; c4.setExamID("240104"); c4.setFullName("Nguyễn Văn Bình"); ht.add(c4);
+    Candidate c5; c5.setExamID("240105"); c5.setFullName("Phạm Quốc Bắc"); ht.add(c5);
 
     RoomManager roomMgr;
 
