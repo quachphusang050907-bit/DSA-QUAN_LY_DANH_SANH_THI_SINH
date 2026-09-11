@@ -1,4 +1,5 @@
 #include "../include/CandidateSorter.h"
+#include "../include/Candidate.h"
 
 #include <string>
 #include <cctype>
@@ -101,12 +102,12 @@ bool CandidateSorter::compareCandidate(
 
     string nameA =
         toLowerString(
-            getFirstName(a.fullName)
+            getFirstName(a.getFullName())
         );
 
     string nameB =
         toLowerString(
-            getFirstName(b.fullName)
+            getFirstName(b.getFullName())
         );
 
 
@@ -127,10 +128,10 @@ bool CandidateSorter::compareCandidate(
     // --------------------------------------------------------
 
     string fullNameA =
-        toLowerString(a.fullName);
+        toLowerString(a.getFullName());
 
     string fullNameB =
-        toLowerString(b.fullName);
+        toLowerString(b.getFullName());
 
 
     if (fullNameA != fullNameB)
@@ -145,7 +146,7 @@ bool CandidateSorter::compareCandidate(
     // -> so sánh mã dự thi.
     // --------------------------------------------------------
 
-    return a.examID < b.examID;
+    return a.getExamID() < b.getExamID();
 }
 
 
