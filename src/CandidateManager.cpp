@@ -1,28 +1,40 @@
 #include "../include/CandidateManager.h"
 #include "../include/HashTable.h"
-#include "../include/CandidateSorter.h"
-#include "../include/GroupManager.h"
-#include "../include/RoomManager.h"
-#include "../include/FileManager.h"
 
 #include <iostream>
 #include <limits>
 #include <cctype>
-#include <chrono>
+#include <sstream>
+#include <iomanip>
 
 using namespace std;
-
 // ======================================================
-// VALIDATION FUNCTIONS
+// VALIDATE EXAM ID
 // ======================================================
-bool isValidName(const string& text)
+bool isValidExamID(const string& examID)
 {
-    if (text.empty())
+    if (examID.empty())
+        return false;
+
+    for (char c : examID)
+    {
+        if (!isalnum(static_cast<unsigned char>(c)))
+            return false;
+    }
+
+    return true;
+}
+// ======================================================
+// VALIDATE FULL NAME
+// ======================================================
+bool isValidName(const string& name)
+{
+    if (name.empty())
         return false;
 
     bool hasLetter = false;
 
-    for (char c : text)
+    for (char c : name)
     {
         if (isalpha(static_cast<unsigned char>(c)))
         {
@@ -36,88 +48,104 @@ bool isValidName(const string& text)
 
     return hasLetter;
 }
-
-bool isValidGender(const string& text)
+// ======================================================
+// VALIDATE GENDER
+// Only: girl / boy
+// ======================================================
+bool isValidGender(string& gender)
 {
-    if (text.empty())
+    if (gender.empty())
         return false;
 
-    for (char c : text)
+    for (char& c : gender)
     {
-        if (!isalpha(static_cast<unsigned char>(c)))
-            return false;
+        c = static_cast<char>(
+            tolower(static_cast<unsigned char>(c))
+        );
     }
 
-    return true;
+    return gender == "girl" || gender == "boy";
 }
-
-bool isValidExamID(const string& text)
+// ======================================================
+// VALIDATE BIRTH DATE
+// Accept:
+// 3/2/2000
+// 03/2/2000
+// 3/02/2000
+// 03/02/2000
+//
+// Convert to:
+// 03/02/2000
+// ======================================================
+bool isValidBirthDate(string& birthDate)
 {
-    if (text.empty())
+    int day, month, year;
+    char slash1, slash2;
+
+    stringstream ss(birthDate);
+
+    if (!(ss >> day >> slash1 >> month >> slash2 >> year))
         return false;
 
-    for (char c : text)
-    {
-        if (!isalnum(static_cast<unsigned char>(c)))
-            return false;
-    }
-
-    return true;
-}
-
-bool isLeapYear(int year)
-{
-    return (year % 400 == 0) ||
-        (year % 4 == 0 && year % 100 != 0);
-}
-
-bool isValidBirthDate(const string& text)
-{
-    if (text.length() != 10)
+    // Must use /
+    if (slash1 != '/' || slash2 != '/')
         return false;
 
-    if (text[2] != '/' || text[5] != '/')
+    // No extra characters
+    char extra;
+    if (ss >> extra)
         return false;
 
-    for (int i = 0; i < 10; i++)
-    {
-        if (i == 2 || i == 5)
-            continue;
-
-        if (!isdigit(static_cast<unsigned char>(text[i])))
-            return false;
-    }
-
-    int day = (text[0] - '0') * 10 + (text[1] - '0');
-    int month = (text[3] - '0') * 10 + (text[4] - '0');
-    int year = (text[6] - '0') * 1000 + (text[7] - '0') * 100 + (text[8] - '0') * 10 + (text[9] - '0');
-
-    if (year < 1900)
+    // Basic year condition
+    if (year < 1900 || year > 2100)
         return false;
 
+    // Month condition
     if (month < 1 || month > 12)
         return false;
 
-    int daysInMonth[] = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
+    // Days in each month
+    int daysInMonth[] =
+    {
+        31, 28, 31, 30, 31, 30,
+        31, 31, 30, 31, 30, 31
+    };
 
-    if (month == 2 && isLeapYear(year))
+    // Leap year
+    bool leapYear =
+        (year % 400 == 0) ||
+        (year % 4 == 0 && year % 100 != 0);
+
+    if (leapYear)
         daysInMonth[1] = 29;
 
     if (day < 1 || day > daysInMonth[month - 1])
         return false;
 
+    // Normalize to DD/MM/YYYY
+    stringstream formatted;
+
+    formatted << setfill('0')
+              << setw(2) << day
+              << "/"
+              << setw(2) << month
+              << "/"
+              << setw(4) << year;
+
+    birthDate = formatted.str();
+
     return true;
 }
-
 // ======================================================
 // ADD CANDIDATE
 // ======================================================
-
 bool CandidateManager::addCandidate()
 {
     Candidate candidate;
     string input;
-
+    // --------------------------------------------------
+    // EXAM ID
+    // --------------------------------------------------
     while (true)
     {
         cout << "Exam ID: ";
@@ -126,20 +154,24 @@ bool CandidateManager::addCandidate()
 
         if (!isValidExamID(input))
         {
-            cout << "Invalid Exam ID! Only letters and numbers are allowed.\n";
+            cout << "Invalid Exam ID. "
+                 << "Please use letters and numbers only.\n";
             continue;
         }
 
         if (hashTable.findByID(input) != nullptr)
         {
-            cout << "Exam ID already exists! Please enter another Exam ID.\n";
+            cout << "Exam ID already exists. "
+                 << "Please enter another ID.\n";
             continue;
         }
 
         candidate.setExamID(input);
         break;
     }
-
+    // --------------------------------------------------
+    // FULL NAME
+    // --------------------------------------------------
     while (true)
     {
         cout << "Full name: ";
@@ -147,29 +179,36 @@ bool CandidateManager::addCandidate()
 
         if (!isValidName(input))
         {
-            cout << "Invalid full name! Only letters and spaces are allowed.\n";
+            cout << "Invalid full name. "
+                 << "Please enter letters and spaces only.\n";
             continue;
         }
 
         candidate.setFullName(input);
         break;
     }
-
+    // --------------------------------------------------
+    // GENDER
+    // Only girl / boy
+    // --------------------------------------------------
     while (true)
     {
-        cout << "Gender: ";
+        cout << "Gender (girl/boy): ";
         getline(cin, input);
 
         if (!isValidGender(input))
         {
-            cout << "Invalid gender! Only letters are allowed.\n";
+            cout << "Invalid gender. "
+                 << "Please enter girl or boy.\n";
             continue;
         }
 
         candidate.setGender(input);
         break;
     }
-
+    // --------------------------------------------------
+    // BIRTH DATE
+    // --------------------------------------------------
     while (true)
     {
         cout << "Birth date (DD/MM/YYYY): ";
@@ -177,22 +216,26 @@ bool CandidateManager::addCandidate()
 
         if (!isValidBirthDate(input))
         {
-            cout << "Invalid birth date! Please enter a valid date in DD/MM/YYYY format.\n";
+            cout << "Invalid birth date. "
+                 << "Please enter a valid date.\n";
             continue;
         }
 
         candidate.setBirthDate(input);
         break;
     }
-
+    // --------------------------------------------------
+    // HOMETOWN
+    // --------------------------------------------------
     while (true)
     {
         cout << "Hometown: ";
         getline(cin, input);
 
-        if (!isValidName(input))
+        if (input.empty())
         {
-            cout << "Invalid hometown! Only letters and spaces are allowed.\n";
+            cout << "Hometown cannot be empty. "
+                 << "Please enter again.\n";
             continue;
         }
 
@@ -200,197 +243,225 @@ bool CandidateManager::addCandidate()
         break;
     }
 
+
     return addCandidate(candidate);
 }
-
+// ======================================================
+// ADD CANDIDATE DIRECTLY
+// ======================================================
 bool CandidateManager::addCandidate(const Candidate& candidate)
 {
     return hashTable.add(candidate);
 }
-
 // ======================================================
-// SEARCH CANDIDATE
+// SEARCH BY EXAM ID
 // ======================================================
-
 Candidate* CandidateManager::searchCandidate()
 {
     string examID;
+
     cout << "Enter exam ID: ";
     cin >> examID;
 
-    Candidate* c = hashTable.findByID(examID);
-    if (c)
-    {
-        cout << "\nCandidate Found:\n";
-        Candidate::printHeader();
-        c->display();
-        Candidate::printSeparator();
-    }
-    else
-    {
-        cout << "Candidate with Exam ID '" << examID << "' not found.\n";
-    }
-    return c;
+    return hashTable.findByID(examID);
 }
 
 Candidate* CandidateManager::searchCandidate(const string& examID)
 {
     return hashTable.findByID(examID);
 }
-
-vector<Candidate> CandidateManager::searchCandidatesByName(const string& keyword) const
+// ======================================================
+// SEARCH BY NAME
+// ======================================================
+vector<Candidate> CandidateManager::searchCandidatesByName(
+    const string& keyword) const
 {
     return hashTable.findByName(keyword);
 }
-
 // ======================================================
 // REMOVE CANDIDATE
 // ======================================================
-
 bool CandidateManager::removeCandidate()
 {
     string examID;
-    cout << "Enter Exam ID to remove: ";
+
+    cout << "Enter exam ID to remove: ";
     cin >> examID;
 
-    if (removeCandidate(examID))
-    {
-        cout << "Candidate removed successfully.\n";
-        return true;
-    }
-    else
-    {
-        cout << "Candidate not found! Removal failed.\n";
-        return false;
-    }
+    return removeCandidate(examID);
 }
-
 bool CandidateManager::removeCandidate(const string& examID)
 {
     return hashTable.remove(examID);
 }
-
 // ======================================================
-// GETTERS & PROCESSING
+// GET ALL CANDIDATES
 // ======================================================
-
 vector<Candidate> CandidateManager::getAllCandidates() const
 {
     return hashTable.getAllCandidates();
 }
-
+// ======================================================
+// GET SORTED CANDIDATES
+// ======================================================
 vector<Candidate> CandidateManager::getSortedCandidates() const
 {
-    vector<Candidate> candidates = hashTable.getAllCandidates();
+    vector<Candidate> candidates =
+        hashTable.getAllCandidates();
+
     CandidateSorter::mergeSort(candidates);
+
     return candidates;
 }
-
+// ======================================================
+// GROUP CANDIDATES
+// ======================================================
 vector<vector<Candidate>> CandidateManager::groupCandidates() const
 {
     vector<vector<Candidate>> groups;
-    for (int i = 0; i < HashTable::TABLE_SIZE; ++i)
+
+    for (int i = 0; i < HashTable::TABLE_SIZE; i++)
     {
         vector<Candidate> group;
-        hashTable.getBucket(i).getAllCandidates(group);
+
+        const LinkedList& bucket =
+            hashTable.getBucket(i);
+
+        const Node* current =
+            bucket.getHead();
+
+        while (current != nullptr)
+        {
+            group.push_back(current->data);
+            current = current->next;
+        }
+
         groups.push_back(group);
     }
+
     return groups;
 }
-
+// ======================================================
+// DIVIDE CANDIDATES INTO ROOMS
+// ======================================================
 vector<Room> CandidateManager::divideCandidates(int numberOfRooms)
 {
-    RoomManager roomMgr;
-    roomMgr.distributeCandidates(hashTable, numberOfRooms);
-    return roomMgr.getRooms();
+    vector<Room> result;
+
+    if (numberOfRooms <= 0)
+        return result;
+
+    RoomManager roomManager;
+
+    if (roomManager.distributeCandidates(
+            hashTable, numberOfRooms))
+    {
+        result = roomManager.getRooms();
+    }
+
+    return result;
 }
-
 // ======================================================
-// DISPLAY FUNCTIONS
+// DISPLAY SORTED CANDIDATES
 // ======================================================
-
 void CandidateManager::displaySortedCandidates() const
 {
-    vector<Candidate> sorted = getSortedCandidates();
-    if (sorted.empty())
+    vector<Candidate> candidates =
+        getSortedCandidates();
+
+    if (candidates.empty())
     {
-        cout << "No candidates in system.\n";
+        cout << "No candidates found.\n";
         return;
     }
-    Candidate::printHeader();
-    for (const auto& c : sorted)
-    {
-        c.display();
-    }
-    Candidate::printSeparator();
-}
 
+    Candidate::printHeader();
+    Candidate::printSeparator();
+
+    for (const Candidate& candidate : candidates)
+    {
+        candidate.display();
+    }
+}
+// ======================================================
+// DISPLAY GROUPS
+// ======================================================
 void CandidateManager::displayGroups() const
 {
     GroupManager::displayAllGroups(hashTable);
 }
-
+// ======================================================
+// DISTRIBUTE CANDIDATES TO ROOMS
+// ======================================================
 void CandidateManager::distributeCandidatesToRooms()
 {
-    int numRooms;
+    int numberOfRooms = 0;
+
     cout << "Enter number of rooms: ";
-    if (!(cin >> numRooms) || numRooms <= 0)
+
+    while (!(cin >> numberOfRooms) ||
+           numberOfRooms <= 0)
     {
-        cout << "Invalid room number!\n";
+        cout << "Invalid input. "
+             << "Please enter a positive integer: ";
+
         cin.clear();
-        cin.ignore(numeric_limits<streamsize>::max(), '\n');
-        return;
+
+        cin.ignore(
+            numeric_limits<streamsize>::max(),
+            '\n'
+        );
     }
 
-    RoomManager roomMgr;
-    auto start = chrono::high_resolution_clock::now();
-    bool success = roomMgr.distributeCandidates(hashTable, numRooms);
-    auto end = chrono::high_resolution_clock::now();
+    RoomManager roomManager;
 
-    if (success)
+    if (roomManager.distributeCandidates(
+            hashTable, numberOfRooms))
     {
-        roomMgr.displayRooms();
-        double elapsed = chrono::duration<double, milli>(end - start).count();
-        roomMgr.printPerformanceReport(elapsed);
+        roomManager.displayRooms();
     }
 }
-
 // ======================================================
-// SAVE & LOAD DATA
+// SAVE DATA
 // ======================================================
-
 bool CandidateManager::saveData()
 {
-    return saveData("candidates.txt");
+    return saveData("data/candidates_100.txt");
 }
+
 
 bool CandidateManager::saveData(const string& filename)
 {
-    vector<Candidate> all = hashTable.getAllCandidates();
-    return FileManager::saveToFile(all, filename);
-}
+    vector<Candidate> candidates =
+        hashTable.getAllCandidates();
 
+    return FileManager::saveToFile(
+        candidates,
+        filename
+    );
+}
+// ======================================================
+// LOAD DATA
+// ======================================================
 bool CandidateManager::loadData()
 {
-    return loadData("candidates.txt");
+    return loadData("data/candidates_100.txt");
 }
 
 bool CandidateManager::loadData(const string& filename)
 {
-    vector<Candidate> loaded = FileManager::loadFromFile(filename);
-    if (loaded.empty())
+    vector<Candidate> candidates =
+        FileManager::loadFromFile(filename);
+
+    bool success = true;
+
+    for (const Candidate& candidate : candidates)
     {
-        cout << "No data loaded or file empty: " << filename << "\n";
-        return false;
-    }
-    int count = 0;
-    for (const auto& c : loaded)
-    {
-        if (hashTable.add(c))
+        if (!hashTable.add(candidate))
         {
-            count++;
+            success = false;
         }
     }
-    cout << "Successfully loaded " << count << " candidates from " << filename << ".\n";
-    return true;
+
+    return success;
 }
