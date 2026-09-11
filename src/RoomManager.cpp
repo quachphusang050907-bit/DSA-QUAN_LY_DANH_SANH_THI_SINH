@@ -62,11 +62,11 @@ void RoomManager::displayRooms() const {
 
         for (const auto& cand : room.candidates) {
             std::cout << std::left 
-                      << std::setw(12) << cand.examID 
-                      << std::setw(25) << cand.fullName 
-                      << std::setw(10) << cand.gender 
-                      << std::setw(15) << cand.birthDate 
-                      << cand.hometown << "\n";
+                      << std::setw(12) << cand.getExamID() 
+                      << std::setw(25) << cand.getFullName() 
+                      << std::setw(10) << cand.getGender() 
+                      << std::setw(15) << cand.getBirthDate() 
+                      << cand.getHometown() << "\n";
         }
     }
 }
@@ -92,7 +92,7 @@ int RoomManager::calculateConflictScore() const {
 
         // Đếm số lượng thí sinh của mỗi chữ cái đầu trong phòng này
         for (const auto& cand : room.candidates) {
-            char firstLetter = extractFirstNameInitial(cand.fullName); // Hoặc logic trích xuất ký tự đầu
+            char firstLetter = extractFirstNameInitial(cand.getFullName()); // Hoặc logic trích xuất ký tự đầu
             if (firstLetter >= 'A' && firstLetter <= 'Z') {
                 letterCounts[firstLetter - 'A']++;
             }
