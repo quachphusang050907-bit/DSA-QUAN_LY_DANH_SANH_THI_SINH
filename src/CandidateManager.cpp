@@ -1,5 +1,5 @@
-#include "CandidateManager.h"
-#include "HashTable.h"
+#include "../include/CandidateManager.h"
+#include "../include/HashTable.h"
 #include <iostream>
 #include <limits>
 
@@ -9,15 +9,15 @@ bool CandidateManager::addCandidate()
 {
     Candidate candidate;
 
+    cout << "Exam ID: ";
+    cin >> ws; 
+    getline(cin, candidate.examID);
+
     cout << "Full name: ";
-    cin >> ws;
     getline(cin, candidate.fullName);
 
     cout << "Gender: ";
     getline(cin, candidate.gender);
-
-    cout << "Exam ID: ";
-    getline(cin, candidate.examID);
 
     cout << "Birth date: ";
     getline(cin, candidate.birthDate);

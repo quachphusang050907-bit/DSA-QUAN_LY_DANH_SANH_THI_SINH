@@ -1,4 +1,4 @@
-#include "CandidateSorter.h"
+#include "../include/CandidateSorter.h"
 
 #include <string>
 #include <cctype>

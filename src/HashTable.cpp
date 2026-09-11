@@ -1,4 +1,4 @@
-#include "HashTable.h"
+#include "../include/HashTable.h"
 #include <iostream>
 #include <algorithm>
 using namespace std;

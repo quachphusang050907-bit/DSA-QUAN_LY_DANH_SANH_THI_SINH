@@ -1,4 +1,4 @@
-#include "Candidate.h"
+#include "../include/Candidate.h"
 
 #include <iomanip>
 #include <iostream>

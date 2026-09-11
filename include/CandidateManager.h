@@ -19,6 +19,9 @@ public:
     bool addCandidate(const Candidate& candidate);
     Candidate* searchCandidate();
     Candidate* searchCandidate(const std::string& examID);
+
+    std::vector<Candidate> searchCandidatesByName(const std::string& keyword) const;
+    
     bool removeCandidate();
     bool removeCandidate(const std::string& examID);
 

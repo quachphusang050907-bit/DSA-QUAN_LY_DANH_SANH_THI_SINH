@@ -1,4 +1,4 @@
-#include "GroupManager.h"       // Include GroupManager
+#include "../include/GroupManager.h"       // Include GroupManager
 #include <iostream>
 #include <iomanip>
 using namespace std;
