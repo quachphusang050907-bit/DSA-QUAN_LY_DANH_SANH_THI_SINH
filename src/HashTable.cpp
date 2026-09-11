@@ -101,10 +101,10 @@ int HashTable::computeIndex(const string& fullName) const {
 //  add - them 1 thi sinh moi. O(1) TRUNG BINH, khong co vong lap nao ca.
 // ============================================================================
 bool HashTable::add(const Candidate& c) {
-    if (idSet.count(c.examID)) return false;   // Da ton tai -> tu choi, O(1)
-    int idx = computeIndex(c.fullName);          // Bam ra chi so 0-25, O(1)
+    if (idSet.count(c.getExamID())) return false;   // Da ton tai -> tu choi, O(1)
+    int idx = computeIndex(c.getFullName());          // Bam ra chi so 0-25, O(1)
     buckets[idx].insertBack(c);                   // Them vao dung bucket, O(1) nho tail
-    idSet.insert(c.examID);
+    idSet.insert(c.getExamID());
     totalCount++;
     return true;
 }
