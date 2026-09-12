@@ -168,7 +168,7 @@ bool CandidateManager::addCandidate()
     // --------------------------------------------------
     while (true)
     {
-        cout << "Gender (0: Nam, 1: Nu): ";
+        cout << "Gender (0: Boy, 1: Girl): ";
         getline(cin, input);
 
         if (!isValidGenderChoice(input))
@@ -179,9 +179,9 @@ bool CandidateManager::addCandidate()
 
         // Lưu tên giới tính tương ứng dựa trên số người dùng chọn
         if (input == "0")
-            candidate.setGender("Nam");
+            candidate.setGender("Boy");
         else
-            candidate.setGender("Nu");
+            candidate.setGender("Girl");
 
         break;
     }
