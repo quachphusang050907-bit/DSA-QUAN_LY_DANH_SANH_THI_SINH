@@ -1,6 +1,4 @@
-#ifndef CANDIDATE_H
-#define CANDIDATE_H
-
+#pragma once
 #include <string>
 
 using namespace std;
@@ -34,4 +32,4 @@ public:
     static void printSeparator();
 };
 
-#endif
+
